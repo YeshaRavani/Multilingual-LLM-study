@@ -1,0 +1,129 @@
+{"kind":"deck","id":"pr/qqjrkl","name":"Deck"}
+{"kind":"layout","layoutId":"aac038e8-aaae-4b37-beb3-4173b1964ee5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"4caee5a2-f11f-43bb-9929-8faa2175b7f5","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nefxbw","slide":1,"title":"RESEARCH PROJECT","textShapes":15}
+{"kind":"shape","id":"sh/2dgnqd43","slide":1,"bbox":[0,0,1600,18]}
+{"kind":"textbox","id":"sh/p07ml83u","slide":1,"text":"RESEARCH PROJECT","textPreview":"RESEARCH PROJECT","textChars":16,"textLines":1,"bbox":[76,92,500,26]}
+{"kind":"textbox","id":"sh/ofy5s3m9","slide":1,"text":"Multilingual Safety\nFairness in LLMs","textPreview":"Multilingual Safety | Fairness in LLMs","textChars":36,"textLines":2,"bbox":[76,164,1000,180]}
+{"kind":"textbox","id":"sh/fa54fy5c","slide":1,"text":"A paired audit of safety decisions and helpfulness across Indian languages and communication styles","textPreview":"A paired audit of safety decisions and helpfulness across Indian languages and communication styles","textChars":99,"textLines":1,"bbox":[80,380,1010,74]}
+{"kind":"shape","id":"sh/e9w3mt47","slide":1,"bbox":[1160,92,350,650]}
+{"kind":"textbox","id":"sh/1c7mh83i","slide":1,"text":"PROJECT SCOPE","textPreview":"PROJECT SCOPE","textChars":13,"textLines":1,"bbox":[1205,139,240,22]}
+{"kind":"textbox","id":"sh/0by5o3mx","slide":1,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1205,195,180,78]}
+{"kind":"textbox","id":"sh/z694rilw","slide":1,"text":"language and style\nconditions","textPreview":"language and style | conditions","textChars":29,"textLines":2,"bbox":[1208,274,238,64]}
+{"kind":"shape","id":"sh/y50nyx4b","slide":1,"bbox":[1205,373,238,3]}
+{"kind":"textbox","id":"sh/c3u5ozu1","slide":1,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1205,409,150,70]}
+{"kind":"textbox","id":"sh/d4n6h4vm","slide":1,"text":"LLM families","textPreview":"LLM families","textChars":12,"textLines":1,"bbox":[1208,481,238,34]}
+{"kind":"shape","id":"sh/q1cnmpwv","slide":1,"bbox":[1205,551,238,3]}
+{"kind":"textbox","id":"sh/r2lofudg","slide":1,"text":"Primary outcome","textPreview":"Primary outcome","textChars":15,"textLines":1,"bbox":[1205,587,210,22]}
+{"kind":"textbox","id":"sh/4zu5kzep","slide":1,"text":"False-refusal\ngap","textPreview":"False-refusal | gap","textChars":17,"textLines":2,"bbox":[1205,621,245,76]}
+{"kind":"shape","id":"sh/p036dkva","slide":1,"bbox":[80,540,900,4]}
+{"kind":"textbox","id":"sh/2xcnipwz","slide":1,"text":"Prepared by","textPreview":"Prepared by","textChars":11,"textLines":1,"bbox":[80,586,180,22]}
+{"kind":"textbox","id":"sh/3ylobud4","slide":1,"text":"Yesha Ravani","textPreview":"Yesha Ravani","textChars":12,"textLines":1,"bbox":[80,620,550,48]}
+{"kind":"textbox","id":"sh/gva5gfet","slide":1,"text":"Project proposal submission","textPreview":"Project proposal submission","textChars":27,"textLines":1,"bbox":[80,689,520,30]}
+{"kind":"textbox","id":"sh/hw369kve","slide":1,"text":"Computational Social Science  ·  Research Project","textPreview":"Computational Social Science  ·  Research Project","textChars":49,"textLines":1,"bbox":[58,852,600,18]}
+{"kind":"textbox","id":"sh/xgbuxcjq","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1508,852,36,18]}
+{"kind":"notes","id":"nt/nefxbw","slide":1,"text":"Title slide. Replace the displayed name if the formal submission requires a different full name or group-member list."}
+{"kind":"slide","id":"sl/s0xr7u","slide":2,"title":"PROJECT FRAMING","textShapes":16}
+{"kind":"textbox","id":"sh/t4jqhsfi","slide":2,"text":"PROJECT FRAMING","textPreview":"PROJECT FRAMING","textChars":15,"textLines":1,"bbox":[58,38,900,25]}
+{"kind":"textbox","id":"sh/6hs76dgr","slide":2,"text":"Research questions","textPreview":"Research questions","textChars":18,"textLines":1,"bbox":[58,87,1440,72]}
+{"kind":"textbox","id":"sh/7i18fixc","slide":2,"text":"Equivalent intent is held constant while language or communication style changes.","textPreview":"Equivalent intent is held constant while language or communication style changes.","textChars":81,"textLines":1,"bbox":[60,174,1420,42]}
+{"kind":"textbox","id":"sh/g7apc7yt","slide":2,"text":"Computational Social Science  ·  Research Project","textPreview":"Computational Social Science  ·  Research Project","textChars":49,"textLines":1,"bbox":[58,852,600,18]}
+{"kind":"textbox","id":"sh/183qlcfe","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1508,852,36,18]}
+{"kind":"textbox","id":"sh/u5s7axg3","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,276,84,55]}
+{"kind":"textbox","id":"sh/f618j2xo","slide":2,"text":"Safety fairness","textPreview":"Safety fairness","textChars":15,"textLines":1,"bbox":[184,274,440,43]}
+{"kind":"textbox","id":"sh/obu9g7y5","slide":2,"text":"Do semantically equivalent benign requests receive different safety decisions across Indian languages and communication styles?","textPreview":"Do semantically equivalent benign requests receive different safety decisions across Indian languages and communication styles?","textChars":127,"textLines":1,"bbox":[650,275,825,75]}
+{"kind":"shape","id":"sh/pc3qpcfq","slide":2,"bbox":[184,386,1290,2]}
+{"kind":"textbox","id":"sh/x47mpg7u","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,432,84,55]}
+{"kind":"textbox","id":"sh/w3ylwbq9","slide":2,"text":"Helpfulness parity","textPreview":"Helpfulness parity","textChars":18,"textLines":1,"bbox":[184,430,440,43]}
+{"kind":"textbox","id":"sh/b2p4n6po","slide":2,"text":"When a model answers, does response quality differ in correctness, completeness, actionability, tone, or language matching?","textPreview":"When a model answers, does response quality differ in correctness, completeness, actionability, tone, or language matching?","textChars":123,"textLines":1,"bbox":[650,431,825,75]}
+{"kind":"shape","id":"sh/a1g3u183","slide":2,"bbox":[184,542,1290,2]}
+{"kind":"textbox","id":"sh/lsrmt07q","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,588,84,55]}
+{"kind":"textbox","id":"sh/kri50vq5","slide":2,"text":"Linguistic drivers","textPreview":"Linguistic drivers","textChars":18,"textLines":1,"bbox":[184,586,440,43]}
+{"kind":"textbox","id":"sh/j694rqpk","slide":2,"text":"Are observed differences associated with language, script, informality, Indian English phrasing, or Hindi-English code-switching?","textPreview":"Are observed differences associated with language, script, informality, Indian English phrasing, or Hindi-English code-switching?","textChars":129,"textLines":1,"bbox":[650,587,825,75]}
+{"kind":"shape","id":"sh/y5g3yl8f","slide":2,"bbox":[58,755,1486,61]}
+{"kind":"textbox","id":"sh/1wnmhw7m","slide":2,"text":"Core comparison","textPreview":"Core comparison","textChars":15,"textLines":1,"bbox":[88,771,205,26]}
+{"kind":"textbox","id":"sh/0velorq1","slide":2,"text":"Same source prompt  ×  ten language/style conditions  ×  OpenAI GPT, Gemini, and Llama","textPreview":"Same source prompt  ×  ten language/style conditions  ×  OpenAI GPT, Gemini, and Llama","textChars":86,"textLines":1,"bbox":[321,766,1165,36]}
+{"kind":"notes","id":"nt/s0xr7u","slide":2,"text":"Research questions finalized during project development."}
+{"kind":"slide","id":"sl/244qkl","slide":3,"title":"LITERATURE REVIEW","textShapes":22}
+{"kind":"textbox","id":"sh/g7yh87u1","slide":3,"text":"LITERATURE REVIEW","textPreview":"LITERATURE REVIEW","textChars":17,"textLines":1,"bbox":[58,38,900,25]}
+{"kind":"textbox","id":"sh/f6pgz2dg","slide":3,"text":"Relevant literature covered so far","textPreview":"Relevant literature covered so far","textChars":34,"textLines":1,"bbox":[58,87,1440,72]}
+{"kind":"textbox","id":"sh/u5gf6hcb","slide":3,"text":"Four studies define the over-refusal, multilingual-safety, and code-switching context.","textPreview":"Four studies define the over-refusal, multilingual-safety, and code-switching context.","textChars":86,"textLines":1,"bbox":[60,174,1420,42]}
+{"kind":"textbox","id":"sh/tk7yxcvq","slide":3,"text":"Computational Social Science  ·  Research Project","textPreview":"Computational Social Science  ·  Research Project","textChars":49,"textLines":1,"bbox":[58,852,600,18]}
+{"kind":"textbox","id":"sh/sjyx47u5","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1508,852,36,18]}
+{"kind":"textbox","id":"sh/7i5gv2dk","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,268,75,42]}
+{"kind":"textbox","id":"sh/6hwf2xcz","slide":3,"text":"Röttger et al. · NAACL 2024","textPreview":"Röttger et al. · NAACL 2024","textChars":27,"textLines":1,"bbox":[176,268,365,25]}
+{"kind":"textbox","id":"sh/dgry9wvu","slide":3,"text":"XSTest","textPreview":"XSTest","textChars":6,"textLines":1,"bbox":[176,300,365,38]}
+{"kind":"textbox","id":"sh/cfihgru9","slide":3,"text":"Introduces safe prompts that resemble unsafe requests and shows how models can display exaggerated safety behavior.","textPreview":"Introduces safe prompts that resemble unsafe requests and shows how models can display exaggerated safety behavior.","textChars":115,"textLines":1,"bbox":[570,270,888,72]}
+{"kind":"shape","id":"sh/ilo3a5kv","slide":3,"bbox":[176,372,1282,2]}
+{"kind":"textbox","id":"sh/jmx43q1g","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,400,75,42]}
+{"kind":"textbox","id":"sh/kn6lcvi1","slide":3,"text":"Cui et al. · 2024","textPreview":"Cui et al. · 2024","textChars":17,"textLines":1,"bbox":[176,400,365,25]}
+{"kind":"textbox","id":"sh/5ozm50jm","slide":3,"text":"OR-Bench","textPreview":"OR-Bench","textChars":8,"textLines":1,"bbox":[176,432,365,38]}
+{"kind":"textbox","id":"sh/axo36lkz","slide":3,"text":"Scales over-refusal measurement with seemingly toxic but benign prompts, plus harmful contrast prompts.","textPreview":"Scales over-refusal measurement with seemingly toxic but benign prompts, plus harmful contrast prompts.","textChars":103,"textLines":1,"bbox":[570,402,888,72]}
+{"kind":"shape","id":"sh/vyx4zq1k","slide":3,"bbox":[176,504,1282,2]}
+{"kind":"textbox","id":"sh/wz6l8v25","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,532,75,42]}
+{"kind":"textbox","id":"sh/xkfm10jq","slide":3,"text":"Shen et al. · ACL Findings 2024","textPreview":"Shen et al. · ACL Findings 2024","textChars":31,"textLines":1,"bbox":[176,532,365,25]}
+{"kind":"textbox","id":"sh/ut8nip03","slide":3,"text":"The Language Barrier","textPreview":"The Language Barrier","textChars":20,"textLines":1,"bbox":[176,564,365,38]}
+{"kind":"textbox","id":"sh/fuh4bu1o","slide":3,"text":"Finds that safety behavior changes across languages, especially between higher-resource and lower-resource languages.","textPreview":"Finds that safety behavior changes across languages, especially between higher-resource and lower-resource languages.","textChars":117,"textLines":1,"bbox":[570,534,888,72]}
+{"kind":"shape","id":"sh/byt03mh0","slide":3,"bbox":[176,636,1282,2]}
+{"kind":"textbox","id":"sh/qx0jah0v","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[74,664,75,42]}
+{"kind":"textbox","id":"sh/d0bi5cz6","slide":3,"text":"Yoo et al. · ACL 2025","textPreview":"Yoo et al. · ACL 2025","textChars":21,"textLines":1,"bbox":[176,664,365,25]}
+{"kind":"textbox","id":"sh/cz21c7il","slide":3,"text":"Code-Switching Red-Teaming","textPreview":"Code-Switching Red-Teaming","textChars":26,"textLines":1,"bbox":[176,696,365,38]}
+{"kind":"textbox","id":"sh/z2t07mhc","slide":3,"text":"Shows that code-switching can weaken safeguards and connects multilingual understanding with safety evaluation.","textPreview":"Shows that code-switching can weaken safeguards and connects multilingual understanding with safety evaluation.","textChars":111,"textLines":1,"bbox":[570,666,888,72]}
+{"kind":"textbox","id":"sh/y1kjeh0r","slide":3,"text":"Sources: Röttger et al. (2024), Cui et al. (2024), Shen et al. (2024), Yoo et al. (2025)","textPreview":"Sources: Röttger et al. (2024), Cui et al. (2024), Shen et al. (2024), Yoo et al. (2025)","textChars":88,"textLines":1,"bbox":[60,803,1410,25]}
+{"kind":"notes","id":"nt/244qkl","slide":3,"text":"Sources:\nXSTest: https://aclanthology.org/2024.naacl-long.301/\nOR-Bench: https://arxiv.org/abs/2405.20947\nThe Language Barrier: https://aclanthology.org/2024.findings-acl.156/\nCode-Switching Red-Teaming: https://aclanthology.org/2025.acl-long.657/"}
+{"kind":"slide","id":"sl/hk9mw1","slide":4,"title":"RESEARCH GAP","textShapes":23}
+{"kind":"textbox","id":"sh/fylo3ih8","slide":4,"text":"RESEARCH GAP","textPreview":"RESEARCH GAP","textChars":12,"textLines":1,"bbox":[58,38,900,25]}
+{"kind":"textbox","id":"sh/gzupwnit","slide":4,"text":"What the current literature leaves open","textPreview":"What the current literature leaves open","textChars":39,"textLines":1,"bbox":[58,87,1440,72]}
+{"kind":"textbox","id":"sh/h0365szy","slide":4,"text":"The proposed study shifts attention from attack success to equal access for ordinary multilingual users.","textPreview":"The proposed study shifts attention from attack success to equal access for ordinary multilingual users.","textChars":104,"textLines":1,"bbox":[60,174,1420,42]}
+{"kind":"textbox","id":"sh/6tsnqd0b","slide":4,"text":"Computational Social Science  ·  Research Project","textPreview":"Computational Social Science  ·  Research Project","textChars":49,"textLines":1,"bbox":[58,852,600,18]}
+{"kind":"textbox","id":"sh/7u1ozihw","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1508,852,36,18]}
+{"kind":"textbox","id":"sh/svu5s3ih","slide":4,"text":"Established evidence","textPreview":"Established evidence","textChars":20,"textLines":1,"bbox":[72,274,530,38]}
+{"kind":"shape","id":"sh/tw3618z2","slide":4,"bbox":[72,326,580,4]}
+{"kind":"textbox","id":"sh/i5snmt0f","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[76,365,58,35]}
+{"kind":"textbox","id":"sh/j61ovy10","slide":4,"text":"English benchmarks identify false refusals on benign prompts.","textPreview":"English benchmarks identify false refusals on benign prompts.","textChars":61,"textLines":1,"bbox":[149,359,482,72]}
+{"kind":"textbox","id":"sh/vahgn6x8","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[76,479,58,35]}
+{"kind":"textbox","id":"sh/a98zu1wn","slide":4,"text":"Multilingual studies find uneven safety behavior across languages.","textPreview":"Multilingual studies find uneven safety behavior across languages.","textChars":66,"textLines":1,"bbox":[149,473,482,72]}
+{"kind":"textbox","id":"sh/xczipgfe","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[76,593,58,35]}
+{"kind":"textbox","id":"sh/wbqhwbet","slide":4,"text":"Code-switching research mainly examines adversarial or jailbreak settings.","textPreview":"Code-switching research mainly examines adversarial or jailbreak settings.","textChars":74,"textLines":1,"bbox":[149,587,482,72]}
+{"kind":"shape","id":"sh/je10rqx4","slide":4,"bbox":[706,270,838,473]}
+{"kind":"textbox","id":"sh/id8zylwj","slide":4,"text":"OPEN QUESTIONS","textPreview":"OPEN QUESTIONS","textChars":14,"textLines":1,"bbox":[751,311,260,22]}
+{"kind":"textbox","id":"sh/5gjitgfa","slide":4,"text":"A paired Indian-language\nfalse-refusal audit","textPreview":"A paired Indian-language | false-refusal audit","textChars":44,"textLines":2,"bbox":[751,353,700,90]}
+{"kind":"shape","id":"sh/kfah0bep","slide":4,"bbox":[751,469,690,3]}
+{"kind":"textbox","id":"sh/zixgfmx0","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[757,501,35,30]}
+{"kind":"textbox","id":"sh/yhozmhgf","slide":4,"text":"Limited matched evaluation of benign prompts across several Indian languages and everyday styles","textPreview":"Limited matched evaluation of benign prompts across several Indian languages and everyday styles","textChars":96,"textLines":1,"bbox":[807,496,620,45]}
+{"kind":"textbox","id":"sh/2xwjupg3","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[757,556,35,30]}
+{"kind":"textbox","id":"sh/3y5knuho","slide":4,"text":"Language and communication style often remain mixed together rather than measured separately","textPreview":"Language and communication style often remain mixed together rather than measured separately","textChars":92,"textLines":1,"bbox":[807,551,620,45]}
+{"kind":"textbox","id":"sh/4zelwzy9","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[757,611,35,30]}
+{"kind":"textbox","id":"sh/p0n2p4ze","slide":4,"text":"Refusal rate alone misses answer quality, tone, language matching, and clarification behavior","textPreview":"Refusal rate alone misses answer quality, tone, language matching, and clarification behavior","textChars":93,"textLines":1,"bbox":[807,606,620,45]}
+{"kind":"textbox","id":"sh/u9cjqpgr","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[757,666,35,30]}
+{"kind":"textbox","id":"sh/falkjahc","slide":4,"text":"Few public datasets pair human-validated variants with responses from both closed and open model families","textPreview":"Few public datasets pair human-validated variants with responses from both closed and open model families","textChars":105,"textLines":1,"bbox":[807,661,620,45]}
+{"kind":"textbox","id":"sh/gbu1sfyx","slide":4,"text":"Proposed contribution: a human-validated dataset of semantically equivalent prompts and model responses across ten conditions.","textPreview":"Proposed contribution: a human-validated dataset of semantically equivalent prompts and model responses across ten conditions.","textChars":126,"textLines":1,"bbox":[72,770,1430,50]}
+{"kind":"notes","id":"nt/hk9mw1","slide":4,"text":"Gap synthesis based on:\nhttps://aclanthology.org/2024.naacl-long.301/\nhttps://arxiv.org/abs/2405.20947\nhttps://aclanthology.org/2024.findings-acl.156/\nhttps://aclanthology.org/2025.acl-long.657/\nThe gap statements are scoped claims from this initial literature review, not claims that no related work exists."}
+{"kind":"slide","id":"sl/okmhl9","slide":5,"title":"CURRENT WORK","textShapes":21}
+{"kind":"textbox","id":"sh/i5o3elwf","slide":5,"text":"CURRENT WORK","textPreview":"CURRENT WORK","textChars":12,"textLines":1,"bbox":[58,38,900,25]}
+{"kind":"textbox","id":"sh/58zm90vq","slide":5,"text":"Pilot dataset and evaluation pipeline","textPreview":"Pilot dataset and evaluation pipeline","textChars":37,"textLines":1,"bbox":[58,87,1440,72]}
+{"kind":"textbox","id":"sh/476lgve5","slide":5,"text":"The current phase builds the paired dataset and prepares controlled API collection.","textPreview":"The current phase builds the paired dataset and prepares controlled API collection.","textChars":83,"textLines":1,"bbox":[60,174,1420,42]}
+{"kind":"textbox","id":"sh/rah4badw","slide":5,"text":"Computational Social Science  ·  Research Project","textPreview":"Computational Social Science  ·  Research Project","textChars":49,"textLines":1,"bbox":[58,852,600,18]}
+{"kind":"textbox","id":"sh/q983i5wb","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1508,852,36,18]}
+{"kind":"shape","id":"sh/dczmdkv2","slide":5,"bbox":[58,270,330,335]}
+{"kind":"textbox","id":"sh/sbq5kfeh","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[88,302,70,30]}
+{"kind":"textbox","id":"sh/fyh4fads","slide":5,"text":"Source set","textPreview":"Source set","textChars":10,"textLines":1,"bbox":[88,354,270,48]}
+{"kind":"textbox","id":"sh/ex8nm5wn","slide":5,"text":"Six canonical English prompts\nFour benign, safety-adjacent requests\nTwo prompts that should be refused","textPreview":"Six canonical English prompts | Four benign, safety-adjacent requests | Two prompts that should be refused","textChars":102,"textLines":3,"bbox":[88,438,270,126]}
+{"kind":"shape","id":"sh/cbqd43mp","slide":5,"bbox":[436,270,330,335]}
+{"kind":"textbox","id":"sh/dczex8na","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[466,302,70,30]}
+{"kind":"textbox","id":"sh/q98v2t4j","slide":5,"text":"Ten conditions","textPreview":"Ten conditions","textChars":14,"textLines":1,"bbox":[466,354,270,48]}
+{"kind":"textbox","id":"sh/rahwvy54","slide":5,"text":"Standard, Indian, and informal English\nHindi and Hinglish\nGujarati, Punjabi, Bengali, Marathi, Kannada","textPreview":"Standard, Indian, and informal English | Hindi and Hinglish | Gujarati, Punjabi, Bengali, Marathi, Kannada","textChars":102,"textLines":3,"bbox":[466,438,270,126]}
+{"kind":"shape","id":"sh/0zad8nml","slide":5,"bbox":[814,270,330,335]}
+{"kind":"textbox","id":"sh/10je18n6","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[844,302,70,30]}
+{"kind":"textbox","id":"sh/ed8v6d4v","slide":5,"text":"Translation","textPreview":"Translation","textChars":11,"textLines":1,"bbox":[844,354,270,48]}
+{"kind":"textbox","id":"sh/zyhwzi50","slide":5,"text":"Google Translate API for six languages\nHuman writing or review for Indian English, informal English, and Hinglish","textPreview":"Google Translate API for six languages | Human writing or review for Indian English, informal English, and Hinglish","textChars":113,"textLines":2,"bbox":[844,438,270,126]}
+{"kind":"shape","id":"sh/o3adcnmx","slide":5,"bbox":[1192,270,330,335]}
+{"kind":"textbox","id":"sh/94je5s3i","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1222,302,70,30]}
+{"kind":"textbox","id":"sh/x8fm9ora","slide":5,"text":"Model responses","textPreview":"Model responses","textChars":15,"textLines":1,"bbox":[1222,354,270,48]}
+{"kind":"textbox","id":"sh/w7ml0jap","slide":5,"text":"OpenAI GPT, Gemini, and Llama\nExact model versions will be fixed before collection","textPreview":"OpenAI GPT, Gemini, and Llama | Exact model versions will be fixed before collection","textChars":82,"textLines":2,"bbox":[1222,438,270,126]}
+{"kind":"textbox","id":"sh/bmd47e94","slide":5,"text":"Work completed","textPreview":"Work completed","textChars":14,"textLines":1,"bbox":[60,660,260,28]}
+{"kind":"textbox","id":"sh/al43ytsj","slide":5,"text":"Source CSV with six prompts  ·  translation script  ·  API response collector  ·  annotation-ready output structure","textPreview":"Source CSV with six prompts  ·  translation script  ·  API response collector  ·  annotation-ready output structure","textChars":115,"textLines":1,"bbox":[60,699,1420,36]}
+{"kind":"shape","id":"sh/lcfmd8r6","slide":5,"bbox":[58,760,1486,63]}
+{"kind":"textbox","id":"sh/kb6543a1","slide":5,"text":"Next milestone","textPreview":"Next milestone","textChars":14,"textLines":1,"bbox":[88,777,190,25]}
+{"kind":"textbox","id":"sh/jax4by9g","slide":5,"text":"Finalize model versions, validate all 60 prompt variants, then collect 180 responses in the first run","textPreview":"Finalize model versions, validate all 60 prompt variants, then collect 180 responses in the first run","textChars":101,"textLines":1,"bbox":[303,771,1175,37]}
+{"kind":"notes","id":"nt/okmhl9","slide":5,"text":"Current status reflects files implemented in the workspace. One run yields 6 prompts × 10 conditions × 3 model families = 180 responses."}

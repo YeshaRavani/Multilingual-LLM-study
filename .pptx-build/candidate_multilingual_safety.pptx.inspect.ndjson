@@ -1,0 +1,51 @@
+{"kind":"deck","id":"pr/lf0npd","name":"Deck"}
+{"kind":"layout","layoutId":"06923246-e87a-4a4f-a81e-e764c5d82d78","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e8ecc97a-0ee5-4e68-8e93-3eea9404c12b","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/pg20pj","slide":1,"title":"RESEARCH PROPOSAL  ·  MULTILINGUAL LLM AUDIT","textShapes":18}
+{"kind":"textbox","id":"sh/pk765g3e","slide":1,"text":"RESEARCH PROPOSAL  ·  MULTILINGUAL LLM AUDIT","textPreview":"RESEARCH PROPOSAL  ·  MULTILINGUAL LLM AUDIT","textChars":44,"textLines":1,"bbox":[52,42,900,28]}
+{"kind":"textbox","id":"sh/2hw7a14n","slide":1,"text":"Multilingual Safety Fairness in LLMs","textPreview":"Multilingual Safety Fairness in LLMs","textChars":36,"textLines":1,"bbox":[52,95,1420,84]}
+{"kind":"textbox","id":"sh/3i5o36l8","slide":1,"text":"Do equivalent benign requests receive equal assistance when users write in different Indian languages and communication styles?","textPreview":"Do equivalent benign requests receive equal assistance when users write in different Indian languages and communication styles?","textChars":127,"textLines":1,"bbox":[54,194,1410,58]}
+{"kind":"shape","id":"sh/cnypgvmp","slide":1,"bbox":[52,294,1496,100]}
+{"kind":"textbox","id":"sh/do7q9g3a","slide":1,"text":"Research focus","textPreview":"Research focus","textChars":14,"textLines":1,"bbox":[86,321,184,34]}
+{"kind":"textbox","id":"sh/qlg7el4z","slide":1,"text":"Compare the safety decision and helpfulness of each model response while holding the user’s underlying intent constant.","textPreview":"Compare the safety decision and helpfulness of each model response while holding the user’s underlying intent constant.","textChars":119,"textLines":1,"bbox":[284,317,1210,44]}
+{"kind":"shape","id":"sh/rmp87qlk","slide":1,"bbox":[52,454,460,270]}
+{"kind":"textbox","id":"sh/srup4rml","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[84,480,396,28]}
+{"kind":"textbox","id":"sh/ts36xwn6","slide":1,"text":"Ten language and style conditions","textPreview":"Ten language and style conditions","textChars":33,"textLines":1,"bbox":[84,526,396,62]}
+{"kind":"textbox","id":"sh/tszix8fi","slide":1,"text":"Standard English\nIndian English\nInformal English\nHindi and Hinglish","textPreview":"Standard English | Indian English | Informal English | Hindi and Hinglish","textChars":67,"textLines":4,"bbox":[84,614,396,86]}
+{"kind":"shape","id":"sh/s7qho3ex","slide":1,"bbox":[570,454,460,270]}
+{"kind":"textbox","id":"sh/r6h0vyxc","slide":1,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[602,480,396,28]}
+{"kind":"textbox","id":"sh/658zmtwr","slide":1,"text":"Indian-language coverage","textPreview":"Indian-language coverage","textChars":24,"textLines":1,"bbox":[602,526,396,62]}
+{"kind":"textbox","id":"sh/1wji18fe","slide":1,"text":"Gujarati\nPunjabi\nBengali\nMarathi and Kannada","textPreview":"Gujarati | Punjabi | Bengali | Marathi and Kannada","textChars":44,"textLines":4,"bbox":[602,614,396,86]}
+{"kind":"shape","id":"sh/gvahs3et","slide":1,"bbox":[1088,454,460,270]}
+{"kind":"textbox","id":"sh/fu10zix8","slide":1,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1120,480,396,28]}
+{"kind":"textbox","id":"sh/et8zqdwn","slide":1,"text":"Models under study","textPreview":"Models under study","textChars":18,"textLines":1,"bbox":[1120,526,396,62]}
+{"kind":"textbox","id":"sh/p0ji5sfa","slide":1,"text":"OpenAI GPT\nGemini\nLlama\n\nIndividual model versions to be selected later","textPreview":"OpenAI GPT | Gemini | Llama |  | Individual model versions to be selected later","textChars":71,"textLines":5,"bbox":[1120,614,396,86]}
+{"kind":"shape","id":"sh/oza1wne5","slide":1,"bbox":[52,760,1496,56]}
+{"kind":"textbox","id":"sh/o3ilsrm1","slide":1,"text":"Primary question","textPreview":"Primary question","textChars":16,"textLines":1,"bbox":[86,775,218,25]}
+{"kind":"textbox","id":"sh/94r21wnm","slide":1,"text":"Does language or communication style change the likelihood of a refusal or the usefulness of an answer?","textPreview":"Does language or communication style change the likelihood of a refusal or the usefulness of an answer?","textChars":103,"textLines":1,"bbox":[350,770,1130,33]}
+{"kind":"textbox","id":"sh/m10jqh4b","slide":1,"text":"Computational Social Science  ·  Research Proposal","textPreview":"Computational Social Science  ·  Research Proposal","textChars":50,"textLines":1,"bbox":[52,844,630,22]}
+{"kind":"textbox","id":"sh/n29kzm5g","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1510,844,38,22]}
+{"kind":"notes","id":"nt/pg20pj","slide":1,"text":"Project framing based on the user-provided proposal and research discussion."}
+{"kind":"slide","id":"sl/iax999","slide":2,"title":"RESEARCH PROPOSAL  ·  DATASET & EVALUATION PLAN","textShapes":17}
+{"kind":"textbox","id":"sh/vexczutc","slide":2,"text":"RESEARCH PROPOSAL  ·  DATASET & EVALUATION PLAN","textPreview":"RESEARCH PROPOSAL  ·  DATASET & EVALUATION PLAN","textChars":47,"textLines":1,"bbox":[52,42,1000,28]}
+{"kind":"textbox","id":"sh/wz6t8zax","slide":2,"text":"Paired Multilingual Prompt Dataset","textPreview":"Paired Multilingual Prompt Dataset","textChars":34,"textLines":1,"bbox":[52,95,1420,84]}
+{"kind":"textbox","id":"sh/h0fu14bi","slide":2,"text":"Every source prompt has one canonical English version and ten matched language or style variants.","textPreview":"Every source prompt has one canonical English version and ten matched language or style variants.","textChars":97,"textLines":1,"bbox":[52,197,1420,42]}
+{"kind":"shape","id":"sh/m94b2psv","slide":2,"bbox":[52,304,460,345]}
+{"kind":"textbox","id":"sh/7axsvut0","slide":2,"text":"01  SOURCE PROMPTS","textPreview":"01  SOURCE PROMPTS","textChars":18,"textLines":1,"bbox":[84,330,396,28]}
+{"kind":"textbox","id":"sh/8b6t4fal","slide":2,"text":"Canonical English corpus","textPreview":"Canonical English corpus","textChars":24,"textLines":1,"bbox":[84,376,396,62]}
+{"kind":"textbox","id":"sh/9cfuxkb6","slide":2,"text":"Write safety-adjacent, benign prompts plus clearly disallowed prompts.\n\nKeep a stable prompt ID and the expected outcome for each item.","textPreview":"Write safety-adjacent, benign prompts plus clearly disallowed prompts. |  | Keep a stable prompt ID and the expected outcome for each item.","textChars":135,"textLines":3,"bbox":[84,464,396,161]}
+{"kind":"shape","id":"sh/y54by5sj","slide":2,"bbox":[570,304,460,345]}
+{"kind":"textbox","id":"sh/z6dsrat4","slide":2,"text":"02  MULTILINGUAL EXPANSION","textPreview":"02  MULTILINGUAL EXPANSION","textChars":26,"textLines":1,"bbox":[602,330,396,28]}
+{"kind":"textbox","id":"sh/7y5wbah8","slide":2,"text":"Ten matched variants","textPreview":"Ten matched variants","textChars":20,"textLines":1,"bbox":[602,376,396,62]}
+{"kind":"textbox","id":"sh/6xwvi503","slide":2,"text":"Use Google Translate API for native-language translations.\n\nManually write or review Indian English, informal English, and Hinglish because these are communication styles.","textPreview":"Use Google Translate API for native-language translations. |  | Manually write or review Indian English, informal English, and Hinglish b...","textChars":171,"textLines":3,"bbox":[602,464,396,161]}
+{"kind":"shape","id":"sh/t0nedkze","slide":2,"bbox":[1088,304,460,345]}
+{"kind":"textbox","id":"sh/8zedkfit","slide":2,"text":"03  MODEL RESPONSE AUDIT","textPreview":"03  MODEL RESPONSE AUDIT","textChars":24,"textLines":1,"bbox":[1120,330,396,28]}
+{"kind":"textbox","id":"sh/v2pwfahk","slide":2,"text":"Three model families","textPreview":"Three model families","textChars":20,"textLines":1,"bbox":[1120,376,396,62]}
+{"kind":"textbox","id":"sh/u1gvmp0z","slide":2,"text":"Send every variant through OpenAI GPT, Gemini, and Llama APIs.\n\nStore the exact model ID, settings, prompt text, and full raw response.","textPreview":"Send every variant through OpenAI GPT, Gemini, and Llama APIs. |  | Store the exact model ID, settings, prompt text, and full raw response.","textChars":135,"textLines":3,"bbox":[1120,464,396,161]}
+{"kind":"shape","id":"sh/h47ehkzq","slide":2,"bbox":[52,699,1496,104]}
+{"kind":"textbox","id":"sh/g3ydofi5","slide":2,"text":"Response dataset","textPreview":"Response dataset","textChars":16,"textLines":1,"bbox":[86,724,220,25]}
+{"kind":"textbox","id":"sh/b6lc3q1g","slide":2,"text":"Per original prompt: 10 versions × 3 LLM families = 30 recorded responses","textPreview":"Per original prompt: 10 versions × 3 LLM families = 30 recorded responses","textChars":73,"textLines":1,"bbox":[86,757,1360,37]}
+{"kind":"textbox","id":"sh/a5cval0v","slide":2,"text":"Annotate each response: answer, refusal, warning, clarification, unsafe compliance, response language, and helpfulness.","textPreview":"Annotate each response: answer, refusal, warning, clarification, unsafe compliance, response language, and helpfulness.","textChars":119,"textLines":1,"bbox":[52,822,1440,22]}
+{"kind":"textbox","id":"sh/yx47ydof","slide":2,"text":"Computational Social Science  ·  Research Proposal","textPreview":"Computational Social Science  ·  Research Proposal","textChars":50,"textLines":1,"bbox":[52,844,630,22]}
+{"kind":"textbox","id":"sh/zyd87i50","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1510,844,38,22]}
+{"kind":"notes","id":"nt/iax999","slide":2,"text":"Dataset construction plan based on the user-provided research design."}
