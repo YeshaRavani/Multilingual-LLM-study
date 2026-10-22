@@ -272,23 +272,44 @@ def call_openai_compatible(
         "Content-Type": "application/json",
         **(extra_headers or {}),
     }
-    response = requests.post(
-        f"{base_url}/chat/completions",
-        headers=headers,
-        json={
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": temperature(),
-            "max_tokens": max_output_tokens(),
-        },
-        timeout=120,
-    )
+    request_body: dict[str, Any] = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": temperature(),
+        "max_tokens": max_output_tokens(),
+    }
+    if provider == "groq" and model.startswith("openai/gpt-oss-"):
+        request_body.update(
+            {
+                "reasoning_effort": os.getenv("GROQ_REASONING_EFFORT", "low"),
+                "include_reasoning": False,
+            }
+        )
+    response = None
+    for attempt in range(4):
+        response = requests.post(
+            f"{base_url}/chat/completions",
+            headers=headers,
+            json=request_body,
+            timeout=120,
+        )
+        if response.status_code != 429 or attempt == 3:
+            break
+        retry_after = response.headers.get("retry-after")
+        try:
+            wait_seconds = min(float(retry_after), 30.0) if retry_after else 5.0 * (attempt + 1)
+        except ValueError:
+            wait_seconds = 5.0 * (attempt + 1)
+        time.sleep(wait_seconds)
+    assert response is not None
     response.raise_for_status()
     payload = response.json()
-    return payload["choices"][0]["message"]["content"], {
+    choice = payload["choices"][0]
+    return choice["message"]["content"], {
         "provider": provider,
         "model": model,
         "api_response_id": payload.get("id"),
+        "finish_reason": choice.get("finish_reason"),
         "usage": payload.get("usage"),
     }
 
@@ -300,6 +321,16 @@ def call_groq(prompt: str) -> tuple[str, dict[str, Any]]:
         api_key_env="GROQ_API_KEY",
         model_env="GROQ_MODEL",
         base_url_env="GROQ_BASE_URL",
+    )
+
+
+def call_nvidia(prompt: str) -> tuple[str, dict[str, Any]]:
+    return call_openai_compatible(
+        prompt,
+        provider="nvidia",
+        api_key_env="NVIDIA_API_KEY",
+        model_env="NVIDIA_MODEL",
+        base_url_env="NVIDIA_BASE_URL",
     )
 
 
@@ -316,7 +347,7 @@ def call_openrouter(prompt: str) -> tuple[str, dict[str, Any]]:
 
 def require_env(name: str) -> str:
     value = os.getenv(name)
-    if not value:
+    if not value or value.startswith("PASTE_"):
         raise RuntimeError(f"Missing {name}. Add it to .env before running this command.")
     return value
 
@@ -337,5 +368,5 @@ def append_jsonl(path: Path, record: dict[str, Any]) -> None:
 
 def sleep_briefly(provider: str | None = None) -> None:
     # Stay below public free-tier request limits during sequential collection.
-    delays = {"openrouter": 3.2, "groq": 2.1, "gemini": 1.1}
+    delays = {"openrouter": 3.2, "groq": 2.1, "gemini": 1.1, "nvidia": 1.5}
     time.sleep(delays.get(provider, 0.15))

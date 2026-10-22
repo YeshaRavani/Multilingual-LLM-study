@@ -71,3 +71,19 @@ python scripts/collect_responses.py \
 ```
 
 The final command produces 180 records for the initial pilot: 6 source prompts × 10 conditions × 3 model families. It stores every raw response, provider/model metadata, prompt metadata, and request status. Add annotation columns or a separate annotation file after collection; do not overwrite raw responses.
+
+For a preliminary NVIDIA language-only run that excludes Indian English,
+Informal English, and Hinglish:
+
+```bash
+python scripts/collect_responses.py \
+  --providers nvidia \
+  --variants data/variants.csv \
+  --conditions standard_english hindi gujarati punjabi bengali marathi kannada \
+  --allow-unreviewed-translations \
+  --resume \
+  --output outputs/preliminary_nvidia_gpt_oss_20b_languages.jsonl
+```
+
+These records are labelled preliminary because the machine translations have
+not yet passed bilingual human review.
