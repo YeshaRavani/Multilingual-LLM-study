@@ -2,6 +2,10 @@
 
 This project creates a paired prompt dataset and records model responses for a small multilingual safety-fairness study.
 
+For the current **Qwen / GPT-OSS / Gemma 4** pipeline that reads the team's
+completed original and strategised prompts and writes the ten-column scored CSV,
+see [PIPELINE.md](PIPELINE.md). The commands below describe earlier experiments.
+
 ## What is generated
 
 - `data/source_prompts.csv` contains only the six canonical English prompts.
