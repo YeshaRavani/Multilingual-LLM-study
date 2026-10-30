@@ -37,6 +37,9 @@ def main() -> None:
     parser.add_argument("--variants", default="data/variants.csv")
     parser.add_argument("--output", default="outputs/responses.jsonl")
     parser.add_argument("--conditions", nargs="+", help="Only collect the listed condition IDs")
+    parser.add_argument("--prompt-ids", nargs="+", help="Only collect the listed source prompt IDs")
+    parser.add_argument("--variant-ids", nargs="+", help="Only collect the listed exact variant IDs")
+    parser.add_argument("--run-label", default="", help="Optional provenance label stored with every response")
     parser.add_argument(
         "--allow-unreviewed-translations",
         action="store_true",
@@ -54,6 +57,20 @@ def main() -> None:
     if not variants_path.is_absolute():
         variants_path = Path(__file__).resolve().parents[1] / variants_path
     variants = load_csv(variants_path)
+    if args.variant_ids:
+        requested_variants = set(args.variant_ids)
+        variants = [row for row in variants if row["variant_id"] in requested_variants]
+        found_variants = {row["variant_id"] for row in variants}
+        missing_variants = requested_variants - found_variants
+        if missing_variants:
+            raise RuntimeError("Unknown or absent variant IDs: " + ", ".join(sorted(missing_variants)))
+    if args.prompt_ids:
+        requested_prompts = set(args.prompt_ids)
+        variants = [row for row in variants if row["prompt_id"] in requested_prompts]
+        found_prompts = {row["prompt_id"] for row in variants}
+        missing_prompts = requested_prompts - found_prompts
+        if missing_prompts:
+            raise RuntimeError("Unknown or absent prompt IDs: " + ", ".join(sorted(missing_prompts)))
     if args.conditions:
         requested_conditions = set(args.conditions)
         variants = [row for row in variants if row["condition_id"] in requested_conditions]
@@ -80,7 +97,7 @@ def main() -> None:
             if not line.strip():
                 continue
             record = json.loads(line)
-            if record.get("request_status") == "success":
+            if record.get("request_status") == "success" and (record.get("response_text") or "").strip():
                 completed.add((record.get("provider", ""), record.get("variant_id", "")))
 
     jobs = [
@@ -100,6 +117,8 @@ def main() -> None:
         record = {
             "run_at_utc": now_utc(),
             "provider": provider,
+            "run_label": args.run_label,
+            "configured_max_output_tokens": int(require_env("MAX_OUTPUT_TOKENS")),
             "study_stage": (
                 "preliminary_unreviewed_translation"
                 if variant["status"] == "needs_translation_review"
@@ -110,7 +129,13 @@ def main() -> None:
         try:
             response_text, metadata = caller(variant["prompt_text"])
             record.update(metadata)
-            record.update({"response_text": response_text, "request_status": "success", "error": None})
+            record.update(
+                {
+                    "response_text": response_text,
+                    "request_status": "success" if (response_text or "").strip() else "empty",
+                    "error": None if (response_text or "").strip() else "No visible response text returned.",
+                }
+            )
         except Exception as error:  # retain failed calls for transparent reruns
             record.update({"response_text": None, "request_status": "error", "error": str(error)})
         append_jsonl(output_path, record)

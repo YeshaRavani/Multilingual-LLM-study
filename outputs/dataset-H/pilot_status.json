@@ -1,0 +1,27 @@
+{
+  "updated_at_utc": "2026-10-27T09:33:33.326375+00:00",
+  "eligible_response_slots": 126,
+  "total_response_slots": 336,
+  "responses_collected": 46,
+  "provisionally_scored": 30,
+  "by_configuration": {
+    "nvidia_gpt_oss_20b": {
+      "excluded_not_eligible": 70,
+      "success": 18,
+      "not_attempted": 19,
+      "error": 5
+    },
+    "groq_gpt_oss_20b": {
+      "excluded_not_eligible": 70,
+      "success": 21,
+      "not_attempted": 20,
+      "error": 1
+    },
+    "groq_qwen_3_8_27b": {
+      "excluded_not_eligible": 70,
+      "success": 7,
+      "not_attempted": 34,
+      "error": 1
+    }
+  }
+}

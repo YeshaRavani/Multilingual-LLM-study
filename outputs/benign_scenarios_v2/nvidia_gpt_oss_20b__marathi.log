@@ -1,0 +1,66 @@
+
+Supervisor pass 1 at 2026-10-27T07:33:14.251283+00:00
+nvidia_gpt_oss_20b: 5/280 already successful; 40 calls planned
+nvidia_gpt_oss_20b 1/40 MSF-001-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 2/40 MSF-002-S2__marathi success finish=length
+nvidia_gpt_oss_20b 3/40 MSF-003-S2__marathi success finish=length
+nvidia_gpt_oss_20b 4/40 MSF-004-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 5/40 MSF-007-S2__marathi success finish=length
+nvidia_gpt_oss_20b 6/40 MSF-008-S2__marathi success finish=length
+nvidia_gpt_oss_20b 7/40 MSF-009-S2__marathi success finish=length
+nvidia_gpt_oss_20b 8/40 MSF-010-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 9/40 MSF-013-S2__marathi success finish=length
+nvidia_gpt_oss_20b 10/40 MSF-014-S2__marathi success finish=length
+nvidia_gpt_oss_20b 11/40 MSF-015-S2__marathi success finish=length
+nvidia_gpt_oss_20b 12/40 MSF-016-S2__marathi success finish=length
+nvidia_gpt_oss_20b 13/40 MSF-019-S2__marathi success finish=length
+nvidia_gpt_oss_20b 14/40 MSF-020-S2__marathi error finish=None
+nvidia_gpt_oss_20b 15/40 MSF-021-S2__marathi success finish=length
+nvidia_gpt_oss_20b 16/40 MSF-022-S2__marathi error finish=None
+nvidia_gpt_oss_20b 17/40 MSF-025-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 18/40 MSF-026-S2__marathi error finish=None
+nvidia_gpt_oss_20b 19/40 MSF-027-S2__marathi success finish=length
+nvidia_gpt_oss_20b 20/40 MSF-028-S2__marathi error finish=None
+nvidia_gpt_oss_20b 21/40 MSF-031-S2__marathi success finish=length
+nvidia_gpt_oss_20b 22/40 MSF-032-S2__marathi error finish=None
+nvidia_gpt_oss_20b 23/40 MSF-033-S2__marathi error finish=None
+nvidia_gpt_oss_20b 24/40 MSF-034-S2__marathi error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 2 at 2026-10-27T08:31:55.766695+00:00
+nvidia_gpt_oss_20b: 114/280 already successful; 23 calls planned
+nvidia_gpt_oss_20b 1/23 MSF-020-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 2/23 MSF-022-S2__marathi error finish=None
+nvidia_gpt_oss_20b 3/23 MSF-026-S2__marathi error finish=None
+nvidia_gpt_oss_20b 4/23 MSF-028-S2__marathi error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 3 at 2026-10-27T08:50:34.983065+00:00
+nvidia_gpt_oss_20b: 137/280 already successful; 22 calls planned
+nvidia_gpt_oss_20b 1/22 MSF-022-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 2/22 MSF-026-S2__marathi success finish=length
+nvidia_gpt_oss_20b 3/22 MSF-028-S2__marathi success finish=length
+nvidia_gpt_oss_20b 4/22 MSF-032-S2__marathi error finish=None
+nvidia_gpt_oss_20b 5/22 MSF-033-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 6/22 MSF-034-S2__marathi success finish=length
+nvidia_gpt_oss_20b 7/22 MSF-037-S2__marathi success finish=length
+nvidia_gpt_oss_20b 8/22 MSF-038-S2__marathi error finish=None
+nvidia_gpt_oss_20b 9/22 MSF-039-S2__marathi error finish=None
+nvidia_gpt_oss_20b 10/22 MSF-040-S2__marathi success finish=length
+nvidia_gpt_oss_20b 11/22 MSF-043-S2__marathi error finish=None
+nvidia_gpt_oss_20b 12/22 MSF-044-S2__marathi success finish=length
+nvidia_gpt_oss_20b 13/22 MSF-045-S2__marathi success finish=length
+nvidia_gpt_oss_20b 14/22 MSF-046-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 15/22 MSF-049-S2__marathi success finish=length
+nvidia_gpt_oss_20b 16/22 MSF-050-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 17/22 MSF-051-S2__marathi success finish=length
+nvidia_gpt_oss_20b 18/22 MSF-052-S2__marathi success finish=length
+nvidia_gpt_oss_20b 19/22 MSF-055-S2__marathi success finish=length
+nvidia_gpt_oss_20b 20/22 MSF-056-S2__marathi success finish=length
+nvidia_gpt_oss_20b 21/22 MSF-057-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 22/22 MSF-058-S2__marathi success finish=length
+nvidia_gpt_oss_20b: 238/280 already successful; 4 calls planned
+nvidia_gpt_oss_20b 1/4 MSF-032-S2__marathi success finish=length
+nvidia_gpt_oss_20b 2/4 MSF-038-S2__marathi success finish=stop
+nvidia_gpt_oss_20b 3/4 MSF-039-S2__marathi error finish=None
+nvidia_gpt_oss_20b 4/4 MSF-043-S2__marathi success finish=length

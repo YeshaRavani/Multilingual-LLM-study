@@ -1,0 +1,70 @@
+
+Supervisor pass 1 at 2026-10-27T07:33:10.233199+00:00
+nvidia_gpt_oss_20b: 5/280 already successful; 39 calls planned
+nvidia_gpt_oss_20b 1/39 MSF-002-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 2/39 MSF-003-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 3/39 MSF-004-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 4/39 MSF-007-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 5/39 MSF-008-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 6/39 MSF-009-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 7/39 MSF-010-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 8/39 MSF-013-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 9/39 MSF-014-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 10/39 MSF-015-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 11/39 MSF-016-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 12/39 MSF-019-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 13/39 MSF-020-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 14/39 MSF-021-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 15/39 MSF-022-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 16/39 MSF-025-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 17/39 MSF-026-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 18/39 MSF-027-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 19/39 MSF-028-S2__punjabi error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 2 at 2026-10-27T08:14:29.577095+00:00
+nvidia_gpt_oss_20b: 101/280 already successful; 25 calls planned
+nvidia_gpt_oss_20b 1/25 MSF-010-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 2/25 MSF-020-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 3/25 MSF-026-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 4/25 MSF-027-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 5/25 MSF-028-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 6/25 MSF-031-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 7/25 MSF-032-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 8/25 MSF-033-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 9/25 MSF-034-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 10/25 MSF-037-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 11/25 MSF-038-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 12/25 MSF-039-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 13/25 MSF-040-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 14/25 MSF-043-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 15/25 MSF-044-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 16/25 MSF-045-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 17/25 MSF-046-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 18/25 MSF-049-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 19/25 MSF-050-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 20/25 MSF-051-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 21/25 MSF-052-S2__punjabi error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 3 at 2026-10-27T09:09:44.629205+00:00
+nvidia_gpt_oss_20b: 181/280 already successful; 14 calls planned
+nvidia_gpt_oss_20b 1/14 MSF-010-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 2/14 MSF-026-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 3/14 MSF-027-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 4/14 MSF-031-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 5/14 MSF-033-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 6/14 MSF-044-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 7/14 MSF-045-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 8/14 MSF-050-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 9/14 MSF-051-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 10/14 MSF-052-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 11/14 MSF-055-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 12/14 MSF-056-S2__punjabi error finish=None
+nvidia_gpt_oss_20b 13/14 MSF-057-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 14/14 MSF-058-S2__punjabi success finish=length
+nvidia_gpt_oss_20b: 257/280 already successful; 4 calls planned
+nvidia_gpt_oss_20b 1/4 MSF-010-S2__punjabi success finish=stop
+nvidia_gpt_oss_20b 2/4 MSF-027-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 3/4 MSF-055-S2__punjabi success finish=length
+nvidia_gpt_oss_20b 4/4 MSF-056-S2__punjabi success finish=length

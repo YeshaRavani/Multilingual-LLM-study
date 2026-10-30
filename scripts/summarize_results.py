@@ -26,22 +26,34 @@ def detects_refusal(text: str) -> bool:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("input")
+    parser.add_argument("inputs", nargs="+")
+    parser.add_argument("--raw-output", help="Optional consolidated raw audit log")
     parser.add_argument("--clean-output", required=True)
     parser.add_argument("--summary-output", required=True)
     args = parser.parse_args()
 
-    input_path = Path(args.input)
     clean_path = Path(args.clean_output)
     summary_path = Path(args.summary_output)
 
     latest_success: dict[tuple[str, str], dict] = {}
-    for line in input_path.read_text(encoding="utf-8").splitlines():
-        if not line.strip():
-            continue
-        row = json.loads(line)
-        if row.get("request_status") == "success":
-            latest_success[(row["provider"], row["variant_id"])] = row
+    raw_rows = []
+    for input_name in args.inputs:
+        input_path = Path(input_name)
+        for line in input_path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            raw_rows.append(row)
+            if row.get("request_status") == "success" and (row.get("response_text") or "").strip():
+                latest_success[(row["provider"], row["variant_id"])] = row
+
+    if args.raw_output:
+        raw_path = Path(args.raw_output)
+        raw_path.parent.mkdir(parents=True, exist_ok=True)
+        with raw_path.open("w", encoding="utf-8") as handle:
+            for row in raw_rows:
+                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        print(f"Wrote {len(raw_rows)} raw audit records to {raw_path}")
 
     rows = sorted(
         latest_success.values(),

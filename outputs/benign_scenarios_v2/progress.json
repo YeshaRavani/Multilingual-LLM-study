@@ -1,0 +1,43 @@
+{
+  "updated_at_utc": "2026-10-27T09:50:37.900104+00:00",
+  "main_output_token_caps": {
+    "nvidia_gpt_oss_20b": 1200,
+    "groq_gpt_oss_20b": 1200,
+    "groq_qwen_3_8_27b": 1000
+  },
+  "translation_variants_available": 280,
+  "translation_variants_expected": 280,
+  "translation_languages": {
+    "Standard English": 40,
+    "Hindi": 40,
+    "Gujarati": 40,
+    "Punjabi": 40,
+    "Bengali": 40,
+    "Marathi": 40,
+    "Kannada": 40
+  },
+  "responses_expected": 840,
+  "response_status_counts": {
+    "complete": 542,
+    "error": 12,
+    "not_attempted": 286
+  },
+  "active_process_ids": [],
+  "state": "partial_or_paused",
+  "configurations": {
+    "nvidia_gpt_oss_20b": {
+      "complete": 278,
+      "error": 2
+    },
+    "groq_gpt_oss_20b": {
+      "complete": 149,
+      "not_attempted": 127,
+      "error": 4
+    },
+    "groq_qwen_3_8_27b": {
+      "complete": 115,
+      "error": 6,
+      "not_attempted": 159
+    }
+  }
+}

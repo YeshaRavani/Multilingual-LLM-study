@@ -1,0 +1,65 @@
+
+Supervisor pass 1 at 2026-10-27T07:33:12.240567+00:00
+nvidia_gpt_oss_20b: 5/280 already successful; 40 calls planned
+nvidia_gpt_oss_20b 1/40 MSF-001-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 2/40 MSF-002-S2__bengali success finish=length
+nvidia_gpt_oss_20b 3/40 MSF-003-S2__bengali success finish=length
+nvidia_gpt_oss_20b 4/40 MSF-004-S2__bengali success finish=length
+nvidia_gpt_oss_20b 5/40 MSF-007-S2__bengali success finish=length
+nvidia_gpt_oss_20b 6/40 MSF-008-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 7/40 MSF-009-S2__bengali error finish=None
+nvidia_gpt_oss_20b 8/40 MSF-010-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 9/40 MSF-013-S2__bengali success finish=length
+nvidia_gpt_oss_20b 10/40 MSF-014-S2__bengali success finish=length
+nvidia_gpt_oss_20b 11/40 MSF-015-S2__bengali success finish=length
+nvidia_gpt_oss_20b 12/40 MSF-016-S2__bengali success finish=length
+nvidia_gpt_oss_20b 13/40 MSF-019-S2__bengali error finish=None
+nvidia_gpt_oss_20b 14/40 MSF-020-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 15/40 MSF-021-S2__bengali success finish=length
+nvidia_gpt_oss_20b 16/40 MSF-022-S2__bengali success finish=length
+nvidia_gpt_oss_20b 17/40 MSF-025-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 18/40 MSF-026-S2__bengali error finish=None
+nvidia_gpt_oss_20b 19/40 MSF-027-S2__bengali success finish=length
+nvidia_gpt_oss_20b 20/40 MSF-028-S2__bengali error finish=None
+nvidia_gpt_oss_20b 21/40 MSF-031-S2__bengali error finish=None
+nvidia_gpt_oss_20b 22/40 MSF-032-S2__bengali error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 2 at 2026-10-27T08:21:46.942725+00:00
+nvidia_gpt_oss_20b: 105/280 already successful; 24 calls planned
+nvidia_gpt_oss_20b 1/24 MSF-009-S2__bengali success finish=length
+nvidia_gpt_oss_20b 2/24 MSF-019-S2__bengali error finish=None
+nvidia_gpt_oss_20b 3/24 MSF-026-S2__bengali success finish=length
+nvidia_gpt_oss_20b 4/24 MSF-028-S2__bengali success finish=length
+nvidia_gpt_oss_20b 5/24 MSF-031-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 6/24 MSF-032-S2__bengali success finish=length
+nvidia_gpt_oss_20b 7/24 MSF-033-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 8/24 MSF-034-S2__bengali success finish=length
+nvidia_gpt_oss_20b 9/24 MSF-037-S2__bengali success finish=length
+nvidia_gpt_oss_20b 10/24 MSF-038-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 11/24 MSF-039-S2__bengali error finish=None
+nvidia_gpt_oss_20b 12/24 MSF-040-S2__bengali error finish=None
+nvidia_gpt_oss_20b 13/24 MSF-043-S2__bengali error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 3 at 2026-10-27T08:52:49.287325+00:00
+nvidia_gpt_oss_20b: 144/280 already successful; 15 calls planned
+nvidia_gpt_oss_20b 1/15 MSF-019-S2__bengali success finish=length
+nvidia_gpt_oss_20b 2/15 MSF-039-S2__bengali error finish=None
+nvidia_gpt_oss_20b 3/15 MSF-040-S2__bengali success finish=length
+nvidia_gpt_oss_20b 4/15 MSF-043-S2__bengali error finish=None
+nvidia_gpt_oss_20b 5/15 MSF-044-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 6/15 MSF-045-S2__bengali success finish=length
+nvidia_gpt_oss_20b 7/15 MSF-046-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 8/15 MSF-049-S2__bengali success finish=length
+nvidia_gpt_oss_20b 9/15 MSF-050-S2__bengali success finish=length
+nvidia_gpt_oss_20b 10/15 MSF-051-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 11/15 MSF-052-S2__bengali success finish=length
+nvidia_gpt_oss_20b 12/15 MSF-055-S2__bengali error finish=None
+nvidia_gpt_oss_20b 13/15 MSF-056-S2__bengali success finish=length
+nvidia_gpt_oss_20b 14/15 MSF-057-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 15/15 MSF-058-S2__bengali success finish=length
+nvidia_gpt_oss_20b: 226/280 already successful; 3 calls planned
+nvidia_gpt_oss_20b 1/3 MSF-039-S2__bengali success finish=stop
+nvidia_gpt_oss_20b 2/3 MSF-043-S2__bengali error finish=None
+nvidia_gpt_oss_20b 3/3 MSF-055-S2__bengali success finish=length

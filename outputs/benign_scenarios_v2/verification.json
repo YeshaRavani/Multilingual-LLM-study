@@ -1,0 +1,1518 @@
+{
+  "verified_at_utc": "2026-10-27T09:50:38.201156+00:00",
+  "integrity_checks": "passed",
+  "translation_variants_expected": 280,
+  "translation_variants_present": 280,
+  "translation_human_review": "pending",
+  "responses_expected": 840,
+  "responses_collected": 542,
+  "all_collection_complete": false,
+  "configurations": {
+    "nvidia_gpt_oss_20b": {
+      "complete": 278,
+      "error": 2
+    },
+    "groq_gpt_oss_20b": {
+      "complete": 149,
+      "not_attempted": 127,
+      "error": 4
+    },
+    "groq_qwen_3_8_27b": {
+      "complete": 115,
+      "error": 6,
+      "not_attempted": 159
+    }
+  },
+  "missing_responses": [
+    {
+      "configuration": "nvidia_gpt_oss_20b",
+      "variant_id": "MSF-039-S2__marathi",
+      "status": "error"
+    },
+    {
+      "configuration": "nvidia_gpt_oss_20b",
+      "variant_id": "MSF-043-S2__bengali",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-001-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-002-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-003-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-004-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-007-S2__marathi",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-007-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-008-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-008-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-008-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-009-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-009-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-009-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-010-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-010-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-010-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-013-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-013-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-013-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-014-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-014-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-014-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-015-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-015-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-015-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-016-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-016-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-016-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-019-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-019-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-019-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-020-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-020-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-020-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-021-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-021-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-021-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-022-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-022-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-022-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-025-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-025-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-025-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-026-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-026-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-026-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-027-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-027-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-027-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-028-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-028-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-028-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-031-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-031-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-031-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-032-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-032-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-032-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-033-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-033-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-033-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-034-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-034-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-034-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-037-S2__gujarati",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-037-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-037-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-037-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-038-S2__punjabi",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-038-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-038-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-038-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-039-S2__gujarati",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-039-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-039-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-039-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-040-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-040-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-040-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-043-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-043-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-043-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-044-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-044-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-044-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-045-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-045-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-045-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-046-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-046-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-046-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-046-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-049-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-049-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-049-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-049-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-049-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-050-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-050-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-050-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-050-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-050-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-051-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-051-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-051-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-051-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-051-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-052-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-052-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-052-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-052-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-052-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-055-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-055-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-055-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-055-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-055-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-056-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-056-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-056-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-056-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-056-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-057-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-057-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-057-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-057-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-057-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-058-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-058-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-058-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-058-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_gpt_oss_20b",
+      "variant_id": "MSF-058-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-009-S2__kannada",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-010-S2__kannada",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-013-S2__kannada",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-014-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-015-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-016-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-019-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-020-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-021-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-022-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-025-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-026-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-027-S2__hindi",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-027-S2__gujarati",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-027-S2__punjabi",
+      "status": "error"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-027-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-027-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-027-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-028-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-031-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-032-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-033-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-034-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-037-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-038-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-039-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-040-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-043-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-044-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-045-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-046-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-049-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-050-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-051-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-052-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-055-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-056-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-057-S2__kannada",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__standard_english",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__hindi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__gujarati",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__punjabi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__bengali",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__marathi",
+      "status": "not_attempted"
+    },
+    {
+      "configuration": "groq_qwen_3_8_27b",
+      "variant_id": "MSF-058-S2__kannada",
+      "status": "not_attempted"
+    }
+  ]
+}

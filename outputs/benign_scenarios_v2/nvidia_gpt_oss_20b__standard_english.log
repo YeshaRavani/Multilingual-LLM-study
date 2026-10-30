@@ -1,0 +1,65 @@
+
+Supervisor pass 1 at 2026-10-27T07:33:04.188122+00:00
+nvidia_gpt_oss_20b: 5/280 already successful; 39 calls planned
+nvidia_gpt_oss_20b 1/39 MSF-002-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 2/39 MSF-003-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 3/39 MSF-004-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 4/39 MSF-007-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 5/39 MSF-008-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 6/39 MSF-009-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 7/39 MSF-010-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 8/39 MSF-013-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 9/39 MSF-014-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 10/39 MSF-015-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 11/39 MSF-016-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 12/39 MSF-019-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 13/39 MSF-020-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 14/39 MSF-021-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 15/39 MSF-022-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 16/39 MSF-025-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 17/39 MSF-026-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 18/39 MSF-027-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 19/39 MSF-028-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 20/39 MSF-031-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 21/39 MSF-032-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 22/39 MSF-033-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 23/39 MSF-034-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 24/39 MSF-037-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 25/39 MSF-038-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 26/39 MSF-039-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 27/39 MSF-040-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 28/39 MSF-043-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 29/39 MSF-044-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 30/39 MSF-045-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 31/39 MSF-046-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 32/39 MSF-049-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 33/39 MSF-050-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 34/39 MSF-051-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 35/39 MSF-052-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 36/39 MSF-055-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 37/39 MSF-056-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 38/39 MSF-057-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 39/39 MSF-058-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b: 183/280 already successful; 12 calls planned
+nvidia_gpt_oss_20b 1/12 MSF-003-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 2/12 MSF-004-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 3/12 MSF-014-S2__standard_english error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 2 at 2026-10-27T09:15:21.055172+00:00
+nvidia_gpt_oss_20b: 198/280 already successful; 12 calls planned
+nvidia_gpt_oss_20b 1/12 MSF-003-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 2/12 MSF-004-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 3/12 MSF-014-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 4/12 MSF-016-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 5/12 MSF-020-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 6/12 MSF-027-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 7/12 MSF-032-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 8/12 MSF-040-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 9/12 MSF-044-S2__standard_english error finish=None
+nvidia_gpt_oss_20b 10/12 MSF-045-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 11/12 MSF-052-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b 12/12 MSF-057-S2__standard_english success finish=stop
+nvidia_gpt_oss_20b: 262/280 already successful; 2 calls planned
+nvidia_gpt_oss_20b 1/2 MSF-040-S2__standard_english success finish=length
+nvidia_gpt_oss_20b 2/2 MSF-044-S2__standard_english success finish=length

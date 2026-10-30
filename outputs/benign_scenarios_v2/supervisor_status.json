@@ -1,0 +1,69 @@
+{
+  "updated_at_utc": "2026-10-27T09:50:17.194263+00:00",
+  "translation_complete": true,
+  "tasks": [
+    {
+      "name": "nvidia_gpt_oss_20b__standard_english",
+      "passes": 2,
+      "remaining": 0,
+      "running": false,
+      "blocked_reason": ""
+    },
+    {
+      "name": "nvidia_gpt_oss_20b__hindi",
+      "passes": 3,
+      "remaining": 0,
+      "running": false,
+      "blocked_reason": ""
+    },
+    {
+      "name": "nvidia_gpt_oss_20b__gujarati",
+      "passes": 3,
+      "remaining": 0,
+      "running": false,
+      "blocked_reason": ""
+    },
+    {
+      "name": "nvidia_gpt_oss_20b__punjabi",
+      "passes": 3,
+      "remaining": 0,
+      "running": false,
+      "blocked_reason": ""
+    },
+    {
+      "name": "nvidia_gpt_oss_20b__bengali",
+      "passes": 3,
+      "remaining": 1,
+      "running": false,
+      "blocked_reason": ""
+    },
+    {
+      "name": "nvidia_gpt_oss_20b__marathi",
+      "passes": 3,
+      "remaining": 1,
+      "running": false,
+      "blocked_reason": ""
+    },
+    {
+      "name": "nvidia_gpt_oss_20b__kannada",
+      "passes": 2,
+      "remaining": 1,
+      "running": true,
+      "blocked_reason": ""
+    },
+    {
+      "name": "groq_gpt_oss_20b__standard_english_hindi_gujarati_punjabi_bengali_marathi_kannada",
+      "passes": 1,
+      "remaining": 131,
+      "running": false,
+      "blocked_reason": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01knsgh918fexvbcypr9zctes5` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199337, Requested 1439. Please try again in 5m35.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+    },
+    {
+      "name": "groq_qwen_3_8_27b__standard_english_hindi_gujarati_punjabi_bengali_marathi_kannada",
+      "passes": 3,
+      "remaining": 165,
+      "running": false,
+      "blocked_reason": ""
+    }
+  ]
+}

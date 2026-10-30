@@ -1,0 +1,22 @@
+configuration,condition_name,expected_rows,complete,empty,error,not_attempted,translation_pending,potentially_truncated
+nvidia_gpt_oss_20b,Standard English,40,40,0,0,0,0,16
+nvidia_gpt_oss_20b,Hindi,40,40,0,0,0,0,29
+nvidia_gpt_oss_20b,Gujarati,40,40,0,0,0,0,26
+nvidia_gpt_oss_20b,Punjabi,40,40,0,0,0,0,32
+nvidia_gpt_oss_20b,Bengali,40,39,0,1,0,0,26
+nvidia_gpt_oss_20b,Marathi,40,39,0,1,0,0,28
+nvidia_gpt_oss_20b,Kannada,40,40,0,0,0,0,27
+groq_gpt_oss_20b,Standard English,40,40,0,0,0,0,13
+groq_gpt_oss_20b,Hindi,40,40,0,0,0,0,25
+groq_gpt_oss_20b,Gujarati,40,30,0,2,8,0,18
+groq_gpt_oss_20b,Punjabi,40,30,0,1,9,0,24
+groq_gpt_oss_20b,Bengali,40,5,0,0,35,0,3
+groq_gpt_oss_20b,Marathi,40,4,0,1,35,0,2
+groq_gpt_oss_20b,Kannada,40,0,0,0,40,0,0
+groq_qwen_3_8_27b,Standard English,40,19,0,0,21,0,13
+groq_qwen_3_8_27b,Hindi,40,18,0,1,21,0,16
+groq_qwen_3_8_27b,Gujarati,40,18,0,1,21,0,17
+groq_qwen_3_8_27b,Punjabi,40,18,0,1,21,0,16
+groq_qwen_3_8_27b,Bengali,40,18,0,0,22,0,17
+groq_qwen_3_8_27b,Marathi,40,18,0,0,22,0,17
+groq_qwen_3_8_27b,Kannada,40,6,0,3,31,0,6

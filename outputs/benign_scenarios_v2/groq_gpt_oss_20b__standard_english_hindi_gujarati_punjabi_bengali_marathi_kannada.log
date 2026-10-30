@@ -1,0 +1,14 @@
+
+Supervisor pass 1 at 2026-10-27T07:33:18.278346+00:00
+groq_gpt_oss_20b: 140/280 already successful; 100 calls planned
+groq_gpt_oss_20b 1/100 MSF-001-S2__bengali success finish=stop
+groq_gpt_oss_20b 2/100 MSF-001-S2__marathi success finish=stop
+groq_gpt_oss_20b 3/100 MSF-002-S2__bengali success finish=length
+groq_gpt_oss_20b 4/100 MSF-002-S2__marathi success finish=length
+groq_gpt_oss_20b 5/100 MSF-003-S2__bengali success finish=stop
+groq_gpt_oss_20b 6/100 MSF-003-S2__marathi success finish=length
+groq_gpt_oss_20b 7/100 MSF-004-S2__bengali success finish=length
+groq_gpt_oss_20b 8/100 MSF-004-S2__marathi success finish=stop
+groq_gpt_oss_20b 9/100 MSF-007-S2__bengali success finish=length
+groq_gpt_oss_20b 10/100 MSF-007-S2__marathi error finish=None
+groq_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts

@@ -285,24 +285,74 @@ def call_openai_compatible(
                 "include_reasoning": False,
             }
         )
+    elif provider == "groq" and model.startswith("qwen/"):
+        request_body.update(
+            {
+                "reasoning_effort": os.getenv("GROQ_QWEN_REASONING_EFFORT", "none"),
+                "include_reasoning": False,
+            }
+        )
+    elif provider == "nvidia" and model.startswith("openai/gpt-oss-") and os.getenv("NVIDIA_REASONING_EFFORT"):
+        request_body["reasoning_effort"] = os.environ["NVIDIA_REASONING_EFFORT"]
+    stream_response = provider == "nvidia" and os.getenv("NVIDIA_STREAM", "true").lower() in {
+        "1",
+        "true",
+        "yes",
+        "on",
+    }
+    if stream_response:
+        request_body["stream"] = True
+    request_timeout = 300 if provider == "nvidia" else 120
     response = None
-    for attempt in range(4):
+    for attempt in range(6):
         response = requests.post(
             f"{base_url}/chat/completions",
             headers=headers,
             json=request_body,
-            timeout=120,
+            timeout=request_timeout,
+            stream=stream_response,
         )
-        if response.status_code != 429 or attempt == 3:
+        if response.status_code != 429 or attempt == 5:
+            break
+        # A request larger than a quota cannot succeed by waiting and retrying.
+        if "request too large" in response.text.lower():
             break
         retry_after = response.headers.get("retry-after")
         try:
-            wait_seconds = min(float(retry_after), 30.0) if retry_after else 5.0 * (attempt + 1)
+            wait_seconds = min(float(retry_after), 75.0) if retry_after else 10.0 * (attempt + 1)
         except ValueError:
-            wait_seconds = 5.0 * (attempt + 1)
+            wait_seconds = 10.0 * (attempt + 1)
         time.sleep(wait_seconds)
     assert response is not None
     response.raise_for_status()
+    if stream_response:
+        content_parts: list[str] = []
+        response_id = None
+        finish_reason = None
+        usage = None
+        for line in response.iter_lines(decode_unicode=True):
+            if not line or not line.startswith("data:"):
+                continue
+            data = line[5:].strip()
+            if data == "[DONE]":
+                break
+            chunk = json.loads(data)
+            response_id = response_id or chunk.get("id")
+            usage = chunk.get("usage") or usage
+            choices = chunk.get("choices") or []
+            if not choices:
+                continue
+            delta = choices[0].get("delta") or {}
+            if delta.get("content"):
+                content_parts.append(delta["content"])
+            finish_reason = choices[0].get("finish_reason") or finish_reason
+        return "".join(content_parts), {
+            "provider": provider,
+            "model": model,
+            "api_response_id": response_id,
+            "finish_reason": finish_reason,
+            "usage": usage,
+        }
     payload = response.json()
     choice = payload["choices"][0]
     return choice["message"]["content"], {
@@ -368,5 +418,5 @@ def append_jsonl(path: Path, record: dict[str, Any]) -> None:
 
 def sleep_briefly(provider: str | None = None) -> None:
     # Stay below public free-tier request limits during sequential collection.
-    delays = {"openrouter": 3.2, "groq": 2.1, "gemini": 1.1, "nvidia": 1.5}
+    delays = {"openrouter": 3.2, "groq": 10.0, "gemini": 1.1, "nvidia": 1.5}
     time.sleep(delays.get(provider, 0.15))

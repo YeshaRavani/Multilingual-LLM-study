@@ -1,0 +1,65 @@
+
+Supervisor pass 1 at 2026-10-27T07:33:06.204200+00:00
+nvidia_gpt_oss_20b: 5/280 already successful; 39 calls planned
+nvidia_gpt_oss_20b 1/39 MSF-002-S2__hindi success finish=length
+nvidia_gpt_oss_20b 2/39 MSF-003-S2__hindi success finish=length
+nvidia_gpt_oss_20b 3/39 MSF-004-S2__hindi success finish=length
+nvidia_gpt_oss_20b 4/39 MSF-007-S2__hindi success finish=length
+nvidia_gpt_oss_20b 5/39 MSF-008-S2__hindi success finish=length
+nvidia_gpt_oss_20b 6/39 MSF-009-S2__hindi success finish=length
+nvidia_gpt_oss_20b 7/39 MSF-010-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 8/39 MSF-013-S2__hindi success finish=length
+nvidia_gpt_oss_20b 9/39 MSF-014-S2__hindi success finish=length
+nvidia_gpt_oss_20b 10/39 MSF-015-S2__hindi success finish=length
+nvidia_gpt_oss_20b 11/39 MSF-016-S2__hindi success finish=length
+nvidia_gpt_oss_20b 12/39 MSF-019-S2__hindi success finish=length
+nvidia_gpt_oss_20b 13/39 MSF-020-S2__hindi error finish=None
+nvidia_gpt_oss_20b 14/39 MSF-021-S2__hindi success finish=length
+nvidia_gpt_oss_20b 15/39 MSF-022-S2__hindi error finish=None
+nvidia_gpt_oss_20b 16/39 MSF-025-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 17/39 MSF-026-S2__hindi error finish=None
+nvidia_gpt_oss_20b 18/39 MSF-027-S2__hindi success finish=length
+nvidia_gpt_oss_20b 19/39 MSF-028-S2__hindi success finish=length
+nvidia_gpt_oss_20b 20/39 MSF-031-S2__hindi error finish=None
+nvidia_gpt_oss_20b 21/39 MSF-032-S2__hindi error finish=None
+nvidia_gpt_oss_20b 22/39 MSF-033-S2__hindi error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 2 at 2026-10-27T08:20:14.289766+00:00
+nvidia_gpt_oss_20b: 104/280 already successful; 23 calls planned
+nvidia_gpt_oss_20b 1/23 MSF-020-S2__hindi error finish=None
+nvidia_gpt_oss_20b 2/23 MSF-022-S2__hindi error finish=None
+nvidia_gpt_oss_20b 3/23 MSF-026-S2__hindi success finish=length
+nvidia_gpt_oss_20b 4/23 MSF-031-S2__hindi error finish=None
+nvidia_gpt_oss_20b 5/23 MSF-032-S2__hindi success finish=length
+nvidia_gpt_oss_20b 6/23 MSF-033-S2__hindi error finish=None
+nvidia_gpt_oss_20b 7/23 MSF-034-S2__hindi success finish=length
+nvidia_gpt_oss_20b 8/23 MSF-037-S2__hindi success finish=length
+nvidia_gpt_oss_20b 9/23 MSF-038-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 10/23 MSF-039-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 11/23 MSF-040-S2__hindi success finish=length
+nvidia_gpt_oss_20b 12/23 MSF-043-S2__hindi success finish=length
+nvidia_gpt_oss_20b 13/23 MSF-044-S2__hindi success finish=length
+nvidia_gpt_oss_20b 14/23 MSF-045-S2__hindi success finish=length
+nvidia_gpt_oss_20b 15/23 MSF-046-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 16/23 MSF-049-S2__hindi error finish=None
+nvidia_gpt_oss_20b 17/23 MSF-050-S2__hindi error finish=None
+nvidia_gpt_oss_20b 18/23 MSF-051-S2__hindi error finish=None
+nvidia_gpt_oss_20b: paused after provider error or repeated empty/error responses; saved all attempts
+
+Supervisor pass 3 at 2026-10-27T09:12:17.830787+00:00
+nvidia_gpt_oss_20b: 188/280 already successful; 12 calls planned
+nvidia_gpt_oss_20b 1/12 MSF-020-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 2/12 MSF-022-S2__hindi success finish=length
+nvidia_gpt_oss_20b 3/12 MSF-031-S2__hindi success finish=length
+nvidia_gpt_oss_20b 4/12 MSF-033-S2__hindi error finish=None
+nvidia_gpt_oss_20b 5/12 MSF-049-S2__hindi success finish=length
+nvidia_gpt_oss_20b 6/12 MSF-050-S2__hindi success finish=length
+nvidia_gpt_oss_20b 7/12 MSF-051-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 8/12 MSF-052-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 9/12 MSF-055-S2__hindi success finish=length
+nvidia_gpt_oss_20b 10/12 MSF-056-S2__hindi success finish=length
+nvidia_gpt_oss_20b 11/12 MSF-057-S2__hindi success finish=stop
+nvidia_gpt_oss_20b 12/12 MSF-058-S2__hindi success finish=length
+nvidia_gpt_oss_20b: 245/280 already successful; 1 calls planned
+nvidia_gpt_oss_20b 1/1 MSF-033-S2__hindi success finish=stop
