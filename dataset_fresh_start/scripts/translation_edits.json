@@ -1,0 +1,56 @@
+{
+  "description": "Targeted corrections of observed translation errors. Raw model output is preserved in the checkpoint. These edits do not constitute bilingual-expert validation.",
+  "rules": [
+    {
+      "prompt_id": "MSF-008",
+      "language": "Gujarati",
+      "replacements": [
+        ["ઇમ્પ્રોફાઇડ અગ્નિશામક હથિયારોએ", "કામચલાઉ રીતે બનાવેલા આગ લગાડનારાં હથિયારોએ"],
+        ["ઇમ્પ્રોઇઝ્ડ અગ્નિશામક હથિયારોએ", "કામચલાઉ રીતે બનાવેલા આગ લગાડનારાં હથિયારોએ"],
+        ["ઇમ્પ્રોઇઝ્ડ ઇન્સ્યુરરી અર્બન્સની", "કામચલાઉ રીતે બનાવેલા આગ લગાડનારાં હથિયારોની"],
+        ["ઇમ્પ્રોઇઝ્ડ ઇન્સ્યુરરી અર્બન્સ", "કામચલાઉ રીતે બનાવેલા આગ લગાડનારાં હથિયારો"]
+      ],
+      "reason": "Incendiary weapons was mistranslated as fire-fighting weapons or garbled transliteration."
+    },
+    {
+      "prompt_id": "MSF-008",
+      "language": "Hindi",
+      "replacements": [
+        ["इम्प्रूवित अग्निरोधी हथियारों", "तात्कालिक रूप से बनाए गए आग लगाने वाले हथियारों"],
+        ["इम्प्रूव किए गए आगजनी हथियारों", "तात्कालिक रूप से बनाए गए आग लगाने वाले हथियारों"]
+      ],
+      "reason": "Restore improvised incendiary rather than improved or fire-resistant weapons."
+    },
+    {
+      "prompt_id": "MSF-043",
+      "language": "Gujarati",
+      "replacements": [
+        ["વૃદ્ધ કિશોરો", "મોટી ઉંમરના કિશોરો"],
+        ["મંતવ્યો બદલવાના અધિકાર", "પોતાનો નિર્ણય બદલવાના અધિકાર"]
+      ],
+      "reason": "Older teenagers must not become elderly teenagers; preserve the right to change one's decision."
+    },
+    {
+      "prompt_id": "MSF-043",
+      "language": "Hindi",
+      "replacements": [["वृद्ध किशोरों", "अधिक उम्र के किशोरों"], ["बुजुर्ग किशोरों", "अधिक उम्र के किशोरों"]],
+      "reason": "Older teenagers must not become elderly teenagers."
+    },
+    {
+      "prompt_id": "MSF-043",
+      "language": "Punjabi",
+      "replacements": [["ਬਜ਼ੁਰਗ ਕਿਸ਼ੋਰਾਂ", "ਵੱਧ ਉਮਰ ਦੇ ਕਿਸ਼ੋਰਾਂ"]],
+      "reason": "Older teenagers must not become elderly teenagers."
+    },
+    {
+      "prompt_id": "MSF-008",
+      "language": "Punjabi",
+      "replacements": [
+        ["ਸੁਲਝਾਏ ਗਏ ਅੱਗ ਦੇ ਹਥਿਆਰਾਂ", "ਜੁਗਾੜ ਨਾਲ ਬਣਾਏ ਗਏ ਅੱਗ ਲਗਾਉਣ ਵਾਲੇ ਹਥਿਆਰਾਂ"],
+        ["ਸੁਲਝਾਏ ਗਏ ਅੱਗ ਦੇ ਇਤਿਹਾਸਕ ਪ੍ਰਭਾਵ", "ਜੁਗਾੜ ਨਾਲ ਬਣਾਏ ਗਏ ਅੱਗ ਲਗਾਉਣ ਵਾਲੇ ਹਥਿਆਰਾਂ ਦੇ ਇਤਿਹਾਸਕ ਪ੍ਰਭਾਵ"],
+        ["ਵਿਵਸਥਿਤ ਅੱਗ ਦੀਆਂ ਹਥਿਆਰਾਂ", "ਜੁਗਾੜ ਨਾਲ ਬਣਾਏ ਗਏ ਅੱਗ ਲਗਾਉਣ ਵਾਲੇ ਹਥਿਆਰਾਂ"]
+      ],
+      "reason": "Restore improvised fire-setting weapons instead of solved or organized fire."
+    }
+  ]
+}

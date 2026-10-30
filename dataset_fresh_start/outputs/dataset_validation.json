@@ -1,0 +1,35 @@
+{
+  "rows": 1280,
+  "original_prompts": 40,
+  "strategies": 4,
+  "languages": 8,
+  "unique_ids": 1280,
+  "missing_rows": 0,
+  "duplicate_texts": 0,
+  "language_counts": {
+    "English": 160,
+    "Gujarati": 160,
+    "Hindi": 160,
+    "Punjabi": 160,
+    "Kannada": 160,
+    "Tamil": 160,
+    "Malayalam": 160,
+    "Marathi": 160
+  },
+  "strategy_counts": {
+    "persona_builder": 320,
+    "emotional_stakes": 320,
+    "task_decomposition": 320,
+    "audience_framing": 320
+  },
+  "original_english_retained_verbatim": true,
+  "translation_status": "model_assisted_with_documented_overrides_needs_bilingual_review",
+  "english_authoring_method": "Codex-assistant-authored deterministic wrappers and prompt-specific decomposition",
+  "source_file": "data/source_prompts_research_v1.csv",
+  "source_file_sha256": "a6849644577875a7ac623d886c4dc80603313eaa5f18dcc9e1d7aeab5a759126",
+  "translated_input": "aligned framing, original question, and numbered parts; shared questions translated once per language",
+  "translation_model": "facebook/nllb-200-distilled-600M",
+  "assistant_supplied_terminology_units": 67,
+  "targeted_translation_edits": 1,
+  "model_response_collection_performed": false
+}

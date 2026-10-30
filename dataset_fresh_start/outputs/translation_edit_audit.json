@@ -1,0 +1,11 @@
+[
+  {
+    "variant_id": "MSF-043__persona_builder__gu",
+    "raw_sha256": "ecc58d0b0dd3487abbf3e43db2f80d1a9b4691cef759761c960e55223adba6a3",
+    "edited_sha256": "30a57796af5e59a636169a4d905f80524fa1a9ed2c2a9660e0e010862aaae93e",
+    "reasons": [
+      "Older teenagers must not become elderly teenagers; preserve the right to change one's decision."
+    ],
+    "reviewer": "Codex assistant targeted correction; not bilingual-expert validation"
+  }
+]
