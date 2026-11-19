@@ -1,0 +1,4 @@
+model,expected,generated,api_scored,semantic_reviewed,refusal_percent,mean_completeness,mean_semantic_helpfulness
+qwen/qwen3.8-27b,128,128,128,16,70.31,1.8281,78.125
+openai/gpt-oss-20b,128,128,128,19,67.97,1.6641,39.3158
+nvidia/nemotron-3.5-bolt-e4b,128,128,128,16,64.06,1.9922,80.1875

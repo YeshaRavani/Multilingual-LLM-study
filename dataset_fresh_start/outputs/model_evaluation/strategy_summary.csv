@@ -1,0 +1,5 @@
+strategy,expected,scored,coverage_percent,semantic_reviewed,matched_reviewed,mean_semantic_score,matched_mean_semantic_score,refusal_percent,mean_completeness
+audience_framing,960,953,99.27,125,124,70.552,70.7661,1.78,1.6936
+emotional_stakes,960,960,100.0,135,124,70.2519,70.2823,6.15,1.6229
+persona_builder,960,960,100.0,135,124,71.1185,71.5081,4.9,1.6656
+task_decomposition,960,958,99.79,133,124,77.0376,78.1371,6.37,1.6138

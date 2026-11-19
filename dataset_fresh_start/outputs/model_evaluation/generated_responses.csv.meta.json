@@ -1,0 +1,24 @@
+{
+  "schema_version": 4,
+  "stage": "generate",
+  "models": [
+    "qwen/qwen3.8-27b",
+    "openai/gpt-oss-20b",
+    "nvidia/nemotron-3.5-bolt-e4b"
+  ],
+  "route_profile": "original",
+  "temperature": 0,
+  "max_tokens": 1000,
+  "providers": {
+    "qwen/qwen3.8-27b": "groq",
+    "openai/gpt-oss-20b": "groq",
+    "nvidia/nemotron-3.5-bolt-e4b": "nvidia"
+  },
+  "model_parameters": {
+    "nvidia/nemotron-3.5-bolt-e4b": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  }
+}

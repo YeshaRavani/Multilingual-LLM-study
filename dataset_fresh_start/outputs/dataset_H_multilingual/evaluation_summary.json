@@ -1,0 +1,19 @@
+{
+  "input_rows": 128,
+  "expected_responses": 384,
+  "generated_responses": 384,
+  "generation_complete": true,
+  "scored_responses": 384,
+  "collection_complete": true,
+  "saved_responses": 384,
+  "missing_responses": 0,
+  "semantic_reviewed_responses": 51,
+  "semantic_review_complete": false,
+  "observed_leaders": [],
+  "ranking": [],
+  "comparison_type": "original_prompts_no_strategy_comparison",
+  "statuses": {
+    "success": 234,
+    "truncated_scored": 150
+  }
+}

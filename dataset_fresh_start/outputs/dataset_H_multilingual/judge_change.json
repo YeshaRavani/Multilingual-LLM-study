@@ -1,0 +1,20 @@
+{
+  "changed_at_utc": "2026-11-10T19:35:00.015729+00:00",
+  "old_judge": "openai/gpt-oss-20b",
+  "new_judge": "google/gemini-3.5-flash-lite",
+  "archive": "/Users/Hp/Documents/ChatGPT/CSS/Multilingual-LLM-study-archive-2026-11-01/judge_replacement_2026-11-10T193500Z",
+  "studies": {
+    "model_evaluation": {
+      "responses_preserved": 3840,
+      "previous_api_scores_archived": 430,
+      "semantic_scores_preserved": 512,
+      "raw_sha256": "de9f9af92b9873d12891f672b666d131c108c311a2a0317d489a47ef821cca1a"
+    },
+    "dataset_H_multilingual": {
+      "responses_preserved": 358,
+      "previous_api_scores_archived": 2,
+      "semantic_scores_preserved": 0,
+      "raw_sha256": "79d3444144f16af4e9f2f51503a7e23f71e64f55033823ba0e338e2ad7937fb8"
+    }
+  }
+}

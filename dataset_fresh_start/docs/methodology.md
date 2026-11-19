@@ -48,3 +48,41 @@ Additional bounded terminology edits, including older versus elderly teenagers, 
 - Li et al., *Large Language Models Understand and Can be Enhanced by Emotional Stimuli* (EmotionPrompt): https://arxiv.org/abs/2307.11760. This project uses its own emotional wording, not a claim to reproduce a specific evaluated stimulus.
 - Zhou et al., *Least-to-Most Prompting Enables Complex Reasoning in Large Language Models*: https://arxiv.org/abs/2205.10625. The paper decomposes and solves subproblems sequentially; a single wrapped prompt here is a simplified adaptation.
 - Bsharat et al., *Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4*: https://arxiv.org/abs/2312.16171. Explicit audience framing motivates this condition without asserting guaranteed effects.
+
+## Response-model lineup change: 2026-11-05
+
+After an eight-language speed pilot, the user replaced Gemma 4 31B IT with
+NVIDIA Nemotron 3.5 Bolt E4B (`nvidia/nemotron-3.5-bolt-e4b`) on NVIDIA's free
+prototype endpoint. The active response models are now Qwen3.8 27B (Groq),
+GPT-OSS 20B (NVIDIA, with earlier Groq responses retained) and Bolt (NVIDIA).
+Bolt is a valid third model for descriptive comparisons of these four prompt
+strategies and eight language variants. The pilot demonstrated endpoint access
+and basic response coverage, not validated multilingual accuracy or safety.
+
+NVIDIA lists Bolt as an 8B text model. Replacing the 31B Gemma model changes
+capacity, model family and serving conditions, so cross-model differences cannot
+be attributed to prompting alone. Within-model paired strategy comparisons
+remain the primary interpretation. Some Kannada pilot output included mixed
+scripts, underscoring the need for bilingual review. Bolt's hosted service
+availability does not establish downloadable/open-weight availability. If the
+research claim is specifically about open-weight models, verify that eligibility
+separately or describe the study as a comparison of hosted LLMs.
+
+Generation uses temperature 0, maximum 1,000 output tokens and Bolt thinking
+disabled. All input prompts and translations remain unchanged. The eight pilot
+answers meeting those exact settings and prompt hashes were reused. All Gemma
+rows were excluded from active analysis rather than relabelled. Historical
+copies and the model-change audit remain available. Responses with a token-limit
+finish are retained and labelled truncated; complete row coverage is distinct
+from response completeness and completion of semantic annotation.
+
+Reference: https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b
+
+### GPT-OSS provider update: 2026-11-05
+
+After repeated NVIDIA timeouts, the user approved using Groq for subsequent
+GPT-OSS 20B generation and refusal/completeness judging. The model ID, prompts,
+temperature and token budget were preserved. Existing NVIDIA responses and labels
+remain labelled with their actual provider in provenance records. Provider-specific
+numerics and serving differences remain potential confounds; matched strategy
+ranking continues to require the same target provider within a compared cell.

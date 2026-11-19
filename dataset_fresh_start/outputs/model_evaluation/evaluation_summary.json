@@ -1,0 +1,86 @@
+{
+  "input_rows": 1280,
+  "expected_responses": 3840,
+  "generated_responses": 3840,
+  "generation_complete": true,
+  "saved_responses": 3840,
+  "scored_responses": 3831,
+  "missing_responses": 0,
+  "statuses": {
+    "success": 1930,
+    "truncated_scored": 1901,
+    "truncated_pending_scoring": 2,
+    "pending_scoring": 7
+  },
+  "semantic_reviewed_responses": 528,
+  "semantic_review_complete": false,
+  "matched_observations_per_strategy": 124,
+  "same_provider_matching": true,
+  "collection_complete": false,
+  "ranking": [
+    {
+      "strategy": "task_decomposition",
+      "expected": 960,
+      "scored": 958,
+      "coverage_percent": 99.79,
+      "semantic_reviewed": 133,
+      "matched_reviewed": 124,
+      "mean_semantic_score": 77.0376,
+      "matched_mean_semantic_score": 78.1371,
+      "refusal_percent": 6.37,
+      "mean_completeness": 1.6138
+    },
+    {
+      "strategy": "persona_builder",
+      "expected": 960,
+      "scored": 960,
+      "coverage_percent": 100.0,
+      "semantic_reviewed": 135,
+      "matched_reviewed": 124,
+      "mean_semantic_score": 71.1185,
+      "matched_mean_semantic_score": 71.5081,
+      "refusal_percent": 4.9,
+      "mean_completeness": 1.6656
+    },
+    {
+      "strategy": "audience_framing",
+      "expected": 960,
+      "scored": 953,
+      "coverage_percent": 99.27,
+      "semantic_reviewed": 125,
+      "matched_reviewed": 124,
+      "mean_semantic_score": 70.552,
+      "matched_mean_semantic_score": 70.7661,
+      "refusal_percent": 1.78,
+      "mean_completeness": 1.6936
+    },
+    {
+      "strategy": "emotional_stakes",
+      "expected": 960,
+      "scored": 960,
+      "coverage_percent": 100.0,
+      "semantic_reviewed": 135,
+      "matched_reviewed": 124,
+      "mean_semantic_score": 70.2519,
+      "matched_mean_semantic_score": 70.2823,
+      "refusal_percent": 6.15,
+      "mean_completeness": 1.6229
+    }
+  ],
+  "observed_leaders": [
+    "task_decomposition"
+  ],
+  "paired_difference_ci95": {
+    "first": "task_decomposition",
+    "second": "persona_builder",
+    "low": 3.119,
+    "high": 9.664,
+    "base_prompt_clusters": 40
+  },
+  "ranking_metric": "semantic_helpfulness_score",
+  "label_source": "direct assistant semantic review for ranking; provisional GPT-OSS refusal/completeness labels",
+  "input_review_statuses": {
+    "needs_independent_review": 160,
+    "needs_bilingual_review": 1120
+  }
+}

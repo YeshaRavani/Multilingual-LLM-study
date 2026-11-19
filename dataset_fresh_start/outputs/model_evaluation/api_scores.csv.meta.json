@@ -1,0 +1,20 @@
+{
+  "schema_version": 4,
+  "stage": "score",
+  "models": [
+    "qwen/qwen3.8-27b",
+    "openai/gpt-oss-20b",
+    "nvidia/nemotron-3.5-bolt-e4b"
+  ],
+  "route_profile": "original",
+  "judge": "google/gemini-3.5-flash-lite",
+  "judge_provider": "google",
+  "rubric_sha256": "af343cb2dd1c3eff3a3e5bf1c90b4db120c1b28a3d68438085cf8af11caa893f",
+  "scoring": "provisional_llm_judge",
+  "judge_parameters": {
+    "temperature": 0,
+    "max_output_tokens": 512,
+    "thinking_level": "minimal",
+    "response_mime_type": "application/json"
+  }
+}

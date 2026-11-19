@@ -1,0 +1,29 @@
+[
+  {
+    "model": "nvidia/nemotron-3.5-bolt-e4b",
+    "attempted": 8,
+    "planned": 8,
+    "usable": 8,
+    "complete": 8,
+    "median_seconds_successes_only": 13.060500000000001,
+    "median_first_content_seconds": 0.3385
+  },
+  {
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "attempted": 2,
+    "planned": 8,
+    "usable": 0,
+    "complete": 0,
+    "median_seconds_successes_only": null,
+    "median_first_content_seconds": null
+  },
+  {
+    "model": "minimaxai/minimax-m3.1-flash",
+    "attempted": 2,
+    "planned": 8,
+    "usable": 0,
+    "complete": 0,
+    "median_seconds_successes_only": null,
+    "median_first_content_seconds": null
+  }
+]

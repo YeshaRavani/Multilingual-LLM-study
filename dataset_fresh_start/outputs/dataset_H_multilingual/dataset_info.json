@@ -1,0 +1,9 @@
+{
+  "input": "dataset_fresh_start/data/translations/dataset_H_original_multilingual.csv",
+  "input_sha256": "865b9b0a0f18777b3729f91862f4e552087c19df0afc92c543bb919a67d3bbe4",
+  "input_rows": 128,
+  "expected_responses": 384,
+  "rubric_profile": "mixed-safety",
+  "semantic_review": "pending_direct_review",
+  "output_scope": "separate_from_original_strategy_study"
+}

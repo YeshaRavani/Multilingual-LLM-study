@@ -8,3 +8,10 @@
 .DS_Store
 **/.DS_Store
 outputs/**/*.lock
+**/*.lock
+**/*.log
+**/*.tmp
+**/job_status.json
+**/*.progress.json
+**/final_output [0-9]*.csv
+**/.venv/

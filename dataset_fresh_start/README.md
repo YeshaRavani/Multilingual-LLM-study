@@ -41,3 +41,27 @@ Regenerate only the original and English-strategy CSVs:
 ```
 
 The build uses the existing Python environment and the Codex-bundled Node/artifact runtime for CSV export. The previous datasets, outputs and scripts are untouched. Intermediate translation checkpoints and dependency symlinks are not version-controlled.
+
+## Run response models and compare strategies
+
+See [pipeline documentation](../PIPELINE.md) for setup, provider routes and recovery.
+The active free routes are Qwen and GPT-OSS 20B on Groq and Nemotron 3.5 Bolt E4B
+on NVIDIA. Inputs are read unchanged.
+
+```sh
+python dataset_fresh_start/run_models.py --stage parallel --route-profile original --accept-provider-change --resume
+```
+
+Results are written under `outputs/model_evaluation/`. Generation and API scoring
+run simultaneously in independent processes. The API scorer uses a separate
+checkpoint and its completed labels are merged into the final CSV. Generated responses are mirrored live into the existing
+`final_output.csv`, retaining earlier scores. That file contains eight columns: prompt ID,
+strategised prompt, model, response, status, binary refusal label, completeness
+score and `semantic_helpfulness_score`. The semantic score is a direct holistic
+assistant review on a 0–100 scale, not a weighted formula. New responses remain
+blank until reviewed. Empty responses are unscored. Existing judgments are
+preserved when the prompt and response are unchanged.
+
+Strategy reports rank matched observations using semantic helpfulness; API
+refusal/completeness coverage is reported separately. Reasons and content hashes
+for direct reviews remain in `outputs/model_evaluation/semantic_review/decisions.jsonl`.

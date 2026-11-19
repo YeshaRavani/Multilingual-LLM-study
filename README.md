@@ -1,93 +1,73 @@
-# Multilingual LLM safety-fairness pilot
+# Multilingual LLM study
 
-This project creates a paired prompt dataset and records model responses for a small multilingual safety-fairness study.
+Compare four prompt strategies across 40 benign questions and eight languages
+using Qwen, GPT-OSS 20B and Nemotron 3.5 Bolt E4B. The team's 1,280 input prompts are in
+`dataset_fresh_start/data/translations/multilingual_prompts.csv`.
 
-For the current **Qwen / GPT-OSS / Gemma 4** pipeline that reads the team's
-completed original and strategised prompts and writes the ten-column scored CSV,
-see [PIPELINE.md](PIPELINE.md). The commands below describe earlier experiments.
+## Setup and run
 
-## What is generated
-
-- `data/source_prompts.csv` contains only the six canonical English prompts.
-- `scripts/build_variants.py` writes `data/variants.csv`, with ten conditions per source prompt.
-- `scripts/collect_responses.py` writes raw API outputs to `outputs/responses.jsonl`.
-
-The code automatically creates the six native-language translations using a free local model: Hindi, Gujarati, Punjabi, Bengali, Marathi, and Kannada. Set `TRANSLATION_BACKEND=indictrans2` for AI4Bharat IndicTrans2 after Hugging Face approves gated-model access, or use the ungated `TRANSLATION_BACKEND=nllb` fallback. It copies Standard English directly from the source prompt. Google Cloud Translation remains available as an optional backend by setting `TRANSLATION_BACKEND=google` and adding `GOOGLE_TRANSLATE_API_KEY`.
-
-Indian English, Informal English, and Hinglish require a human-written or human-reviewed version. The script creates `data/manual_style_variants_template.csv`; copy it to `data/manual_style_variants.csv`, fill `prompt_text`, and rebuild the variant file. This protects the study from treating machine-generated style rewrites as ground truth.
-
-## Setup
-
-```bash
+```sh
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
+# Add free-provider credentials to .env using .env.example.
+python dataset_fresh_start/run_models.py --stage parallel --route-profile original --accept-provider-change --resume
 ```
 
-Add your keys and selected, version-pinned model identifiers to `.env`. For Llama, use an OpenAI-compatible inference provider and set its endpoint in `LLAMA_BASE_URL` without the `/chat/completions` suffix.
+Generation and API scoring run simultaneously as separate processes. Resume reuses saved
+responses and scores. Current routes are Qwen and GPT-OSS through Groq, and Bolt through NVIDIA. No paid fallback is configured.
+Gemini 3.5 Flash-Lite on Google independently supplies refusal/completeness
+labels (`--judge gemini-flash-lite`, the default), using `GEMINI_API_KEY`.
 
-For IndicTrans2, accept the model access terms on Hugging Face and add a read-only token as `HUGGINGFACE_TOKEN`. The first translation run downloads the model; later runs reuse the local cache.
+Results are in `dataset_fresh_start/outputs/model_evaluation/`:
 
-## Run
+- `generated_responses.csv`: saved model responses and collection checkpoints.
+- `final_output.csv`: live responses, refusal/completeness labels and independent semantic reviews.
+- `strategy_report.md`: matched strategy comparison using semantic helpfulness.
 
-```bash
-python scripts/build_variants.py
-# Complete data/manual_style_variants.csv, then rerun the previous command.
-python scripts/prepare_pilot.py
-python scripts/apply_reviews.py
-python scripts/collect_responses.py --dry-run
-python scripts/collect_responses.py
+The final CSV contains `prompt_id`, `strategised_prompt`, `model`, `response`,
+`status`, `binary_refusal_label`, `completeness_score` and
+`semantic_helpfulness_score`. Semantic scores are direct assistant judgments
+(0–100), not a formula or API-generated composite. New responses remain blank
+in that column until directly reviewed.
+
+See [PIPELINE.md](PIPELINE.md) for commands, recovery and evaluation details,
+and [dataset documentation](dataset_fresh_start/README.md) for the input design.
+New generated responses are published into the same final CSV immediately;
+existing labels and semantic scores are retained. Bolt uses thinking disabled.
+The dataset builder and its source CSV are retained; this pipeline does not
+create or modify prompts.
+
+## Dataset-H and scoring coverage
+
+Dataset-H has a separate result file at
+`dataset_fresh_start/outputs/dataset_H_multilingual/final_output.csv`.
+It contains 16 base questions in eight languages across three models (384
+responses), with no separate four-strategy conditions. All 384 responses have
+Gemini refusal/completeness labels. Its completeness rubric measures safe
+response quality, including appropriate refusal, rather than obedience to
+harmful requests. The benign dataset instead rewards useful fulfillment of
+safe requests.
+
+As of the 2026-11-19 snapshot, the benign dataset has 3,831/3,840 API-scored
+responses and 528 direct semantic reviews. Dataset-H has 51 direct semantic
+reviews. On the user's instruction, further semantic review applies only to
+the benign dataset; dataset-H's remaining semantic cells stay blank. Missing
+semantic reviews are not zeros. Semantic strategy rankings remain preliminary
+until adequate matched review coverage is available for every model and language.
+
+The latest slide deck is in `output/`; it appends dataset-H examples and
+observations to the historical proposal. Earlier slides retain the original
+proposal's model, budget and scoring plans.
+
+## Offline checks
+
+```sh
+python -m unittest discover -s scripts -p 'test_*.py'
+python -m unittest discover -s dataset_fresh_start/scripts -p 'test_*.py'
 ```
 
-For the temporary no-cost professor pilot, use Gemini's free tier, GPT-OSS 20B
-through Groq, and Llama 3.3 70B through OpenRouter:
-
-```bash
-python scripts/collect_responses.py \
-  --providers gemini groq openrouter \
-  --variants data/pilot_variants_reviewed.csv \
-  --output outputs/pilot_free_models.jsonl
-```
-
-The OpenRouter free plan permits 50 requests per day. Keep the first pilot at
-four source prompts across ten conditions, or split a larger collection across
-multiple days.
-
-To use the 60-prompt research dataset instead of the six-prompt pilot:
-
-```bash
-python scripts/build_variants.py \
-  --source data/source_prompts_research_v1.csv \
-  --output data/research_variants_v1.csv \
-  --manual-file data/research_manual_styles_v1.csv \
-  --manual-template data/research_manual_styles_template_v1.csv
-```
-
-This produces 600 prompt variants before model collection. With three model families, one run produces 1,800 responses.
-
-After completing and validating the manual style file, collect the research responses with:
-
-```bash
-python scripts/collect_responses.py \
-  --variants data/research_variants_v1.csv \
-  --output outputs/research_responses_v1.jsonl
-```
-
-The final command produces 180 records for the initial pilot: 6 source prompts × 10 conditions × 3 model families. It stores every raw response, provider/model metadata, prompt metadata, and request status. Add annotation columns or a separate annotation file after collection; do not overwrite raw responses.
-
-For a preliminary NVIDIA language-only run that excludes Indian English,
-Informal English, and Hinglish:
-
-```bash
-python scripts/collect_responses.py \
-  --providers nvidia \
-  --variants data/variants.csv \
-  --conditions standard_english hindi gujarati punjabi bengali marathi kannada \
-  --allow-unreviewed-translations \
-  --resume \
-  --output outputs/preliminary_nvidia_gpt_oss_20b_languages.jsonl
-```
-
-These records are labelled preliminary because the machine translations have
-not yet passed bilingual human review.
+Historical experiments and redundant artifacts were moved out of the codebase
+to the sibling `Multilingual-LLM-study-archive-2026-11-01/` directory. Its
+`cleanup_manifest.json` lists the archived paths. Credentials, current input
+datasets, live checkpoints and semantic review decisions remain in this project.

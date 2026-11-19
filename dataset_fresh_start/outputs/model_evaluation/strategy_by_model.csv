@@ -1,0 +1,13 @@
+model,strategy,expected,scored,coverage_percent,semantic_reviewed,matched_reviewed,mean_semantic_score,matched_mean_semantic_score,refusal_percent,mean_completeness
+nvidia/nemotron-3.5-bolt-e4b,audience_framing,320,320,100.0,4,4,76.25,76.25,1.87,1.9594
+nvidia/nemotron-3.5-bolt-e4b,emotional_stakes,320,320,100.0,4,4,84.75,84.75,5.0,1.9031
+nvidia/nemotron-3.5-bolt-e4b,persona_builder,320,320,100.0,4,4,76.5,76.5,2.5,1.9187
+nvidia/nemotron-3.5-bolt-e4b,task_decomposition,320,320,100.0,4,4,87.75,87.75,7.81,1.8438
+openai/gpt-oss-20b,audience_framing,320,313,97.81,21,20,74.7619,76.3,2.24,1.7604
+openai/gpt-oss-20b,emotional_stakes,320,320,100.0,28,20,73.1429,73.3,7.5,1.6125
+openai/gpt-oss-20b,persona_builder,320,320,100.0,28,20,74.9643,76.1,5.0,1.7312
+openai/gpt-oss-20b,task_decomposition,320,318,99.38,26,20,78.3846,81.4,3.14,1.6289
+qwen/qwen3.8-27b,audience_framing,320,320,100.0,100,100,69.44,69.44,1.25,1.3625
+qwen/qwen3.8-27b,emotional_stakes,320,320,100.0,103,100,68.9029,69.1,5.94,1.3531
+qwen/qwen3.8-27b,persona_builder,320,320,100.0,103,100,69.8641,70.39,7.19,1.3469
+qwen/qwen3.8-27b,task_decomposition,320,320,100.0,103,100,76.2816,77.1,8.13,1.3687

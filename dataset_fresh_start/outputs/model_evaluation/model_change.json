@@ -1,0 +1,29 @@
+{
+  "requested_date": "2026-11-05",
+  "recorded_at_utc": "2026-11-04T19:10:10.210481+00:00",
+  "retired_model": "google/gemma-4-31b-it",
+  "replacement_model": "nvidia/nemotron-3.5-bolt-e4b",
+  "thinking_enabled": false,
+  "input_sha256": "526511d7cbfc0c23accfb54798c138524d3014867821b24052b974b473cd8ab0",
+  "removed": {
+    "final_output.csv": {
+      "rows": 26,
+      "usable_responses": 14
+    },
+    "generated_responses.csv": {
+      "rows": 46,
+      "usable_responses": 22
+    }
+  },
+  "benchmark_responses_reused": 8,
+  "benchmark_source": "dataset_fresh_start/outputs/candidate_benchmark_2026-11-05_final",
+  "current_generated": 1038,
+  "counts_by_model": {
+    "qwen/qwen3.8-27b": 920,
+    "openai/gpt-oss-20b": 110,
+    "nvidia/nemotron-3.5-bolt-e4b": 8
+  },
+  "direct_scores_retained": 512,
+  "archive_directory": "/Users/Hp/Documents/ChatGPT/CSS/Multilingual-LLM-study-archive-2026-11-01/gemma_replacement_2026-11-05",
+  "research_note": "Bolt is an 8B hosted text model, replacing the 31B Gemma model. Parameter scale and serving differences limit attribution of cross-model differences to model family alone. Pilot speed is not a broad multilingual quality validation."
+}

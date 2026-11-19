@@ -1,0 +1,9 @@
+language,expected,generated,api_scored,semantic_reviewed,refusal_percent,mean_completeness,mean_semantic_helpfulness
+English,48,48,48,48,66.67,1.9167,68.2292
+Gujarati,48,48,48,1,70.83,1.8125,0.0
+Hindi,48,48,48,0,70.83,1.8958,
+Kannada,48,48,48,1,64.58,1.75,5.0
+Malayalam,48,48,48,0,52.08,1.8542,
+Marathi,48,48,48,1,70.83,1.7917,0.0
+Punjabi,48,48,48,0,77.08,1.8958,
+Tamil,48,48,48,0,66.67,1.7083,

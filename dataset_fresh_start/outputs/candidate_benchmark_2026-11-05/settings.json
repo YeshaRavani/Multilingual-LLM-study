@@ -1,0 +1,18 @@
+{
+  "models": [
+    "nv-mistralai/mistral-nemo-12b-instruct",
+    "microsoft/phi-3.5-moe-instruct",
+    "nvidia/nemotron-3.5-bolt-e4b"
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Gujarati"
+  ],
+  "max_tokens": 1000,
+  "temperature": 0,
+  "timeout_seconds": 45.0,
+  "source_sha256": "526511d7cbfc0c23accfb54798c138524d3014867821b24052b974b473cd8ab0",
+  "free_access_reference": "https://docs.api.nvidia.com/nim/docs/product",
+  "notes": "Hosted free prototype endpoints only; no partner route, billing upgrade or paid fallback. One concurrent request per candidate. Existing background NVIDIA traffic may affect timings. No claim of production throughput or full-language quality validation."
+}
